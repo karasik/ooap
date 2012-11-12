@@ -68,12 +68,60 @@
     <availablePage>
       <emfPageIdentifier href="MyModel.notation#_jknygCzlEeKpcNdGO_5EZA"/>
     </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MyModel.notation#_3VcIICwVEeKfPsvLyN-NZg"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MyModel.notation#_3fVD8CwVEeKfPsvLyN-NZg"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MyModel.notation#_3fajgCwVEeKfPsvLyN-NZg"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MyModel.notation#_3LlBgCwVEeKfPsvLyN-NZg"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MyModel.notation#_3feN4CwVEeKfPsvLyN-NZg"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MyModel.notation#_3fifUCwVEeKfPsvLyN-NZg"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MyModel.notation#_3fmJsCwVEeKfPsvLyN-NZg"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MyModel.notation#_3fol8CwVEeKfPsvLyN-NZg"/>
+    </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
           <emfPageIdentifier href="MyModel.notation#_3e3w8CwVEeKfPsvLyN-NZg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_3VcIICwVEeKfPsvLyN-NZg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_3fVD8CwVEeKfPsvLyN-NZg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_3fajgCwVEeKfPsvLyN-NZg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_3LlBgCwVEeKfPsvLyN-NZg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_3feN4CwVEeKfPsvLyN-NZg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_3fifUCwVEeKfPsvLyN-NZg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_3fmJsCwVEeKfPsvLyN-NZg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_3fol8CwVEeKfPsvLyN-NZg"/>
         </children>
       </children>
     </windows>

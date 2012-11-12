@@ -2633,6 +2633,38 @@
               <ownedAttribute xmi:id="_3DPlkiwVEeKfPsvLyN-NZg" name="data" visibility="private"/>
             </packagedElement>
           </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_txSiMCziEeKpcNdGO_5EZA" name="Interfaces">
+            <packageImport xmi:id="_b1GXgCzkEeKpcNdGO_5EZA" importedPackage="_qScQACzSEeKchaPxbKttGQ"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_w09ukCziEeKpcNdGO_5EZA" name="ITelephone">
+              <ownedOperation xmi:id="_0UAoUCziEeKpcNdGO_5EZA" name="//busySignalToUser"/>
+              <ownedOperation xmi:id="_0UAoUSziEeKpcNdGO_5EZA" name="//toneSignalToUser"/>
+              <ownedOperation xmi:id="_0UBPYCziEeKpcNdGO_5EZA" name="//dataSignalToSound" visibility="private"/>
+              <ownedOperation xmi:id="_0UBPYSziEeKpcNdGO_5EZA" name="//dataSignalToUser"/>
+              <ownedOperation xmi:id="_0UBPYiziEeKpcNdGO_5EZA" name="//getSound"/>
+              <ownedOperation xmi:id="_0UBPYyziEeKpcNdGO_5EZA" name="//saveNumber" visibility="private"/>
+              <ownedOperation xmi:id="_0UBPZCziEeKpcNdGO_5EZA" name="//sendNumberSign"/>
+              <ownedOperation xmi:id="_0UB2cCziEeKpcNdGO_5EZA" name="//sendDigit"/>
+              <ownedOperation xmi:id="_0UB2cSziEeKpcNdGO_5EZA" name="//handsetDown"/>
+              <ownedOperation xmi:id="_0UB2ciziEeKpcNdGO_5EZA" name="//handsetUp"/>
+              <ownedOperation xmi:id="_0UB2cyziEeKpcNdGO_5EZA" name="//soundToDataSignal" visibility="private"/>
+              <ownedOperation xmi:id="_0UB2dCziEeKpcNdGO_5EZA" name="//cancelSignalToUser"/>
+              <ownedOperation xmi:id="_0UB2dSziEeKpcNdGO_5EZA" name="//hasLastNumber" visibility="private"/>
+              <ownedOperation xmi:id="_0UCdgCziEeKpcNdGO_5EZA" name="//callSignalToUser"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_aOfFYCzsEeKpcNdGO_5EZA" name="ILink">
+              <ownedOperation xmi:id="_KzGDgCzuEeKpcNdGO_5EZA" name="//busySignalToTE"/>
+              <ownedOperation xmi:id="_KzGDgSzuEeKpcNdGO_5EZA" name="//cancelSignalToUser"/>
+              <ownedOperation xmi:id="_KzGqkCzuEeKpcNdGO_5EZA" name="//dataSignalToUser"/>
+              <ownedOperation xmi:id="_KzGqkSzuEeKpcNdGO_5EZA" name="//toneSignalToUser"/>
+              <ownedOperation xmi:id="_KzGqkizuEeKpcNdGO_5EZA" name="//handsetSignalToTE"/>
+              <ownedOperation xmi:id="_KzGqkyzuEeKpcNdGO_5EZA" name="//callSignalToUser"/>
+              <ownedOperation xmi:id="_KzGqlCzuEeKpcNdGO_5EZA" name="//requestDataSignal"/>
+              <ownedOperation xmi:id="_KzHRoCzuEeKpcNdGO_5EZA" name="//dataSignalToTE"/>
+              <ownedOperation xmi:id="_KzHRoSzuEeKpcNdGO_5EZA" name="//endSignalToTE"/>
+              <ownedOperation xmi:id="_KzHRoizuEeKpcNdGO_5EZA" name="//digitSignalToTE"/>
+              <ownedOperation xmi:id="_KzHRoyzuEeKpcNdGO_5EZA" name="//busySignalToUser"/>
+            </packagedElement>
+          </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_gT6XECziEeKpcNdGO_5EZA" name="Telephone">
             <packageImport xmi:id="_abhVcCzkEeKpcNdGO_5EZA" importedPackage="_txSiMCziEeKpcNdGO_5EZA"/>
             <packageImport xmi:id="_a0tRgCzkEeKpcNdGO_5EZA" importedPackage="_qScQACzSEeKchaPxbKttGQ"/>
@@ -2654,26 +2686,6 @@
               <ownedOperation xmi:id="_3DPloywVEeKfPsvLyN-NZg" name="//saveNumber" visibility="private"/>
               <ownedOperation xmi:id="_3DPlpCwVEeKfPsvLyN-NZg" name="//dataSignalToSound" visibility="private"/>
             </packagedElement>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Package" xmi:id="_txSiMCziEeKpcNdGO_5EZA" name="Interfaces">
-            <packageImport xmi:id="_b1GXgCzkEeKpcNdGO_5EZA" importedPackage="_qScQACzSEeKchaPxbKttGQ"/>
-            <packagedElement xmi:type="uml:Interface" xmi:id="_w09ukCziEeKpcNdGO_5EZA" name="ITelephone">
-              <ownedOperation xmi:id="_0UAoUCziEeKpcNdGO_5EZA" name="//busySignalToUser"/>
-              <ownedOperation xmi:id="_0UAoUSziEeKpcNdGO_5EZA" name="//toneSignalToUser"/>
-              <ownedOperation xmi:id="_0UBPYCziEeKpcNdGO_5EZA" name="//dataSignalToSound" visibility="private"/>
-              <ownedOperation xmi:id="_0UBPYSziEeKpcNdGO_5EZA" name="//dataSignalToUser"/>
-              <ownedOperation xmi:id="_0UBPYiziEeKpcNdGO_5EZA" name="//getSound"/>
-              <ownedOperation xmi:id="_0UBPYyziEeKpcNdGO_5EZA" name="//saveNumber" visibility="private"/>
-              <ownedOperation xmi:id="_0UBPZCziEeKpcNdGO_5EZA" name="//sendNumberSign"/>
-              <ownedOperation xmi:id="_0UB2cCziEeKpcNdGO_5EZA" name="//sendDigit"/>
-              <ownedOperation xmi:id="_0UB2cSziEeKpcNdGO_5EZA" name="//handsetDown"/>
-              <ownedOperation xmi:id="_0UB2ciziEeKpcNdGO_5EZA" name="//handsetUp"/>
-              <ownedOperation xmi:id="_0UB2cyziEeKpcNdGO_5EZA" name="//soundToDataSignal" visibility="private"/>
-              <ownedOperation xmi:id="_0UB2dCziEeKpcNdGO_5EZA" name="//cancelSignalToUser"/>
-              <ownedOperation xmi:id="_0UB2dSziEeKpcNdGO_5EZA" name="//hasLastNumber" visibility="private"/>
-              <ownedOperation xmi:id="_0UCdgCziEeKpcNdGO_5EZA" name="//callSignalToUser"/>
-            </packagedElement>
-            <packagedElement xmi:type="uml:Interface" xmi:id="_aOfFYCzsEeKpcNdGO_5EZA" name="ILink"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_XO688CzsEeKpcNdGO_5EZA" name="Link">
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPlhSwVEeKfPsvLyN-NZg" name="Link">
@@ -3181,7 +3193,7 @@
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DNv8CwVEeKfPsvLyN-NZg" value="1"/>
               </qualifier>
             </ownedAttribute>
-            <ownedAttribute xmi:id="_3DNv8SwVEeKfPsvLyN-NZg" name="tel" type="_3DPllCwVEeKfPsvLyN-NZg">
+            <ownedAttribute xmi:id="_3DNv8SwVEeKfPsvLyN-NZg" name="tel" type="_w09ukCziEeKpcNdGO_5EZA">
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3DNv8iwVEeKfPsvLyN-NZg" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DNv8ywVEeKfPsvLyN-NZg" value="1"/>
               <qualifier xmi:id="_3DNv9CwVEeKfPsvLyN-NZg" name="CopyOf_property1_1">
@@ -3189,7 +3201,7 @@
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DNv9iwVEeKfPsvLyN-NZg" value="1"/>
               </qualifier>
             </ownedAttribute>
-            <ownedAttribute xmi:id="_3DNv9ywVEeKfPsvLyN-NZg" name="link" type="_3DPlhSwVEeKfPsvLyN-NZg">
+            <ownedAttribute xmi:id="_3DNv9ywVEeKfPsvLyN-NZg" name="link" type="_aOfFYCzsEeKpcNdGO_5EZA">
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3DNv-CwVEeKfPsvLyN-NZg" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DNv-SwVEeKfPsvLyN-NZg" value="1"/>
               <qualifier xmi:id="_3DNv-iwVEeKfPsvLyN-NZg" name="CopyOf_property1_1">
@@ -3233,13 +3245,13 @@
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwFywVEeKfPsvLyN-NZg" name="ActionExecSpecStart" covered="_3DNwFiwVEeKfPsvLyN-NZg" event="_3DPlMywVEeKfPsvLyN-NZg" execution="_3DNwGCwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DNwGCwVEeKfPsvLyN-NZg" name="ActionExecSpec" covered="_3DNwFiwVEeKfPsvLyN-NZg" start="_3DNwFywVEeKfPsvLyN-NZg" finish="_3DNwGiwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwGSwVEeKfPsvLyN-NZg" name="//callSignalToUser_MessageSend" covered="_3DNwFiwVEeKfPsvLyN-NZg" event="_3DPlNSwVEeKfPsvLyN-NZg" message="_3DNwYywVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwGiwVEeKfPsvLyN-NZg" name="ActionExecSpecFinish" covered="_3DNwFiwVEeKfPsvLyN-NZg" event="_3DPlNCwVEeKfPsvLyN-NZg" execution="_3DNwGCwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwGywVEeKfPsvLyN-NZg" name="//callSignalToUser_MessageRecv" covered="_3DNwFSwVEeKfPsvLyN-NZg" event="_3DPlNiwVEeKfPsvLyN-NZg" message="_3DNwYywVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwGiwVEeKfPsvLyN-NZg" name="ActionExecSpecFinish" covered="_3DNwFiwVEeKfPsvLyN-NZg" event="_3DPlNCwVEeKfPsvLyN-NZg" execution="_3DNwGCwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwHCwVEeKfPsvLyN-NZg" name="ActionExecSpec0Start" covered="_3DNwFSwVEeKfPsvLyN-NZg" event="_3DPlNywVEeKfPsvLyN-NZg" execution="_3DNwHSwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DNwHSwVEeKfPsvLyN-NZg" name="ActionExecSpec0" covered="_3DNwFSwVEeKfPsvLyN-NZg" start="_3DNwHCwVEeKfPsvLyN-NZg" finish="_3DNwICwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwHiwVEeKfPsvLyN-NZg" name="//callSignalToUser_Message0Send" covered="_3DNwFSwVEeKfPsvLyN-NZg" event="_3DPlOSwVEeKfPsvLyN-NZg" message="_3DNwZCwVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwHywVEeKfPsvLyN-NZg" name="//callSignalToUser_Message0Recv" covered="_3DNwFCwVEeKfPsvLyN-NZg" event="_3DPlOiwVEeKfPsvLyN-NZg" message="_3DNwZCwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwICwVEeKfPsvLyN-NZg" name="ActionExecSpec0Finish" covered="_3DNwFSwVEeKfPsvLyN-NZg" event="_3DPlOCwVEeKfPsvLyN-NZg" execution="_3DNwHSwVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwHywVEeKfPsvLyN-NZg" name="//callSignalToUser_Message0Recv" covered="_3DNwFCwVEeKfPsvLyN-NZg" event="_3DPlOiwVEeKfPsvLyN-NZg" message="_3DNwZCwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwISwVEeKfPsvLyN-NZg" name="ActionExecSpec1Start" covered="_3DNwFCwVEeKfPsvLyN-NZg" event="_3DPlOywVEeKfPsvLyN-NZg" execution="_3DNwIiwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DNwIiwVEeKfPsvLyN-NZg" name="ActionExecSpec1" covered="_3DNwFCwVEeKfPsvLyN-NZg" start="_3DNwISwVEeKfPsvLyN-NZg" finish="_3DNwJSwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwIywVEeKfPsvLyN-NZg" name="//ring_MessageSend" covered="_3DNwFCwVEeKfPsvLyN-NZg" event="_3DPlPSwVEeKfPsvLyN-NZg" message="_3DNwZSwVEeKfPsvLyN-NZg"/>
@@ -3283,18 +3295,18 @@
                   <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwRiwVEeKfPsvLyN-NZg" name="ActionExecSpecStart" covered="_3DNwESwVEeKfPsvLyN-NZg" event="_3DPlTywVEeKfPsvLyN-NZg" execution="_3DNwRywVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DNwRywVEeKfPsvLyN-NZg" name="ActionExecSpec" covered="_3DNwESwVEeKfPsvLyN-NZg" start="_3DNwRiwVEeKfPsvLyN-NZg" finish="_3DNwSSwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwSCwVEeKfPsvLyN-NZg" name="//handsetUp_MessageSend" covered="_3DNwESwVEeKfPsvLyN-NZg" event="_3DPlUSwVEeKfPsvLyN-NZg" message="_3DNwaSwVEeKfPsvLyN-NZg"/>
-                  <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwSSwVEeKfPsvLyN-NZg" name="ActionExecSpecFinish" covered="_3DNwESwVEeKfPsvLyN-NZg" event="_3DPlUCwVEeKfPsvLyN-NZg" execution="_3DNwRywVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwSiwVEeKfPsvLyN-NZg" name="//handsetUp_MessageRecv" covered="_3DNwEiwVEeKfPsvLyN-NZg" event="_3DPlUiwVEeKfPsvLyN-NZg" message="_3DNwaSwVEeKfPsvLyN-NZg"/>
+                  <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwSSwVEeKfPsvLyN-NZg" name="ActionExecSpecFinish" covered="_3DNwESwVEeKfPsvLyN-NZg" event="_3DPlUCwVEeKfPsvLyN-NZg" execution="_3DNwRywVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwSywVEeKfPsvLyN-NZg" name="ActionExecSpec0Start" covered="_3DNwEiwVEeKfPsvLyN-NZg" event="_3DPlUywVEeKfPsvLyN-NZg" execution="_3DNwTCwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DNwTCwVEeKfPsvLyN-NZg" name="ActionExecSpec0" covered="_3DNwEiwVEeKfPsvLyN-NZg" start="_3DNwSywVEeKfPsvLyN-NZg" finish="_3DNwTywVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwTSwVEeKfPsvLyN-NZg" name="//handsetUp_Message0Send" covered="_3DNwEiwVEeKfPsvLyN-NZg" event="_3DPlVSwVEeKfPsvLyN-NZg" message="_3DNwaiwVEeKfPsvLyN-NZg"/>
-                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwTiwVEeKfPsvLyN-NZg" name="//handsetUp_Message0Recv" covered="_3DNwFCwVEeKfPsvLyN-NZg" event="_3DPlViwVEeKfPsvLyN-NZg" message="_3DNwaiwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwTywVEeKfPsvLyN-NZg" name="ActionExecSpec0Finish" covered="_3DNwEiwVEeKfPsvLyN-NZg" event="_3DPlVCwVEeKfPsvLyN-NZg" execution="_3DNwTCwVEeKfPsvLyN-NZg"/>
+                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwTiwVEeKfPsvLyN-NZg" name="//handsetUp_Message0Recv" covered="_3DNwFCwVEeKfPsvLyN-NZg" event="_3DPlViwVEeKfPsvLyN-NZg" message="_3DNwaiwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwUCwVEeKfPsvLyN-NZg" name="ActionExecSpec1Start" covered="_3DNwFCwVEeKfPsvLyN-NZg" event="_3DPlVywVEeKfPsvLyN-NZg" execution="_3DNwUSwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DNwUSwVEeKfPsvLyN-NZg" name="ActionExecSpec1" covered="_3DNwFCwVEeKfPsvLyN-NZg" start="_3DNwUCwVEeKfPsvLyN-NZg" finish="_3DNwVywVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwUiwVEeKfPsvLyN-NZg" name="//handsetSignalToTE_MessageSend" covered="_3DNwFCwVEeKfPsvLyN-NZg" event="_3DPlWSwVEeKfPsvLyN-NZg" message="_3DNwaywVEeKfPsvLyN-NZg"/>
-                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwUywVEeKfPsvLyN-NZg" name="//handsetSignalToTE_MessageRecv" covered="_3DNwFSwVEeKfPsvLyN-NZg" event="_3DPlWiwVEeKfPsvLyN-NZg" message="_3DNwaywVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwVCwVEeKfPsvLyN-NZg" name="//stopRinging_Message0Send" covered="_3DNwFCwVEeKfPsvLyN-NZg" event="_3DPlYSwVEeKfPsvLyN-NZg" message="_3DNwbSwVEeKfPsvLyN-NZg"/>
+                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwUywVEeKfPsvLyN-NZg" name="//handsetSignalToTE_MessageRecv" covered="_3DNwFSwVEeKfPsvLyN-NZg" event="_3DPlWiwVEeKfPsvLyN-NZg" message="_3DNwaywVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwVSwVEeKfPsvLyN-NZg" name="//stopRinging_Message0Recv" covered="_3DNwEywVEeKfPsvLyN-NZg" event="_3DPlYiwVEeKfPsvLyN-NZg" message="_3DNwbSwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwViwVEeKfPsvLyN-NZg" name="ActionExecSpec2Start" covered="_3DNwFSwVEeKfPsvLyN-NZg" event="_3DPlWywVEeKfPsvLyN-NZg" execution="_3DNwWSwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwVywVEeKfPsvLyN-NZg" name="ActionExecSpec1Finish" covered="_3DNwFCwVEeKfPsvLyN-NZg" event="_3DPlWCwVEeKfPsvLyN-NZg" execution="_3DNwUSwVEeKfPsvLyN-NZg"/>
@@ -3331,7 +3343,7 @@
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DNwcywVEeKfPsvLyN-NZg" value="1"/>
               </qualifier>
             </ownedAttribute>
-            <ownedAttribute xmi:id="_3DNwdCwVEeKfPsvLyN-NZg" name="tel" type="_3DPllCwVEeKfPsvLyN-NZg">
+            <ownedAttribute xmi:id="_3DNwdCwVEeKfPsvLyN-NZg" name="tel" type="_w09ukCziEeKpcNdGO_5EZA">
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3DNwdSwVEeKfPsvLyN-NZg" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DNwdiwVEeKfPsvLyN-NZg" value="1"/>
               <qualifier xmi:id="_3DNwdywVEeKfPsvLyN-NZg" name="CopyOf_property1_1">
@@ -3339,7 +3351,7 @@
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DNweSwVEeKfPsvLyN-NZg" value="1"/>
               </qualifier>
             </ownedAttribute>
-            <ownedAttribute xmi:id="_3DNweiwVEeKfPsvLyN-NZg" name="link" type="_3DPlhSwVEeKfPsvLyN-NZg">
+            <ownedAttribute xmi:id="_3DNweiwVEeKfPsvLyN-NZg" name="link" type="_aOfFYCzsEeKpcNdGO_5EZA">
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3DNweywVEeKfPsvLyN-NZg" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DNwfCwVEeKfPsvLyN-NZg" value="1"/>
               <qualifier xmi:id="_3DNwfSwVEeKfPsvLyN-NZg" name="CopyOf_property1_1">
@@ -3416,28 +3428,28 @@
                   <guard xmi:id="_3DNwuiwVEeKfPsvLyN-NZg" name="">
                     <specification xmi:type="uml:LiteralString" xmi:id="_3DNwuywVEeKfPsvLyN-NZg" name="" value="пока АТС не послала телефону сигнал &quot;Занято&quot;"/>
                   </guard>
-                  <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwvCwVEeKfPsvLyN-NZg" name="ActionExecSpecStart" covered="_3DNwlCwVEeKfPsvLyN-NZg" event="_3DO-gSwVEeKfPsvLyN-NZg" execution="_3DNwvywVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwvSwVEeKfPsvLyN-NZg" name="ActionExecSpec7Start" covered="_3DNwkiwVEeKfPsvLyN-NZg" event="_3DO-pSwVEeKfPsvLyN-NZg" execution="_3DNwviwVEeKfPsvLyN-NZg"/>
-                  <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DNwviwVEeKfPsvLyN-NZg" name="ActionExecSpec7" covered="_3DNwkiwVEeKfPsvLyN-NZg" start="_3DNwvSwVEeKfPsvLyN-NZg" finish="_3DOW2CwVEeKfPsvLyN-NZg"/>
+                  <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwvCwVEeKfPsvLyN-NZg" name="ActionExecSpecStart" covered="_3DNwlCwVEeKfPsvLyN-NZg" event="_3DO-gSwVEeKfPsvLyN-NZg" execution="_3DNwvywVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DNwvywVEeKfPsvLyN-NZg" name="ActionExecSpec" covered="_3DNwlCwVEeKfPsvLyN-NZg" start="_3DNwvCwVEeKfPsvLyN-NZg" finish="_3DNwwSwVEeKfPsvLyN-NZg"/>
+                  <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DNwviwVEeKfPsvLyN-NZg" name="ActionExecSpec7" covered="_3DNwkiwVEeKfPsvLyN-NZg" start="_3DNwvSwVEeKfPsvLyN-NZg" finish="_3DOW2CwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwwCwVEeKfPsvLyN-NZg" name="//requestDataSignal_MessageSend" covered="_3DNwlCwVEeKfPsvLyN-NZg" event="_3DO-gywVEeKfPsvLyN-NZg" message="_3DOXDiwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwwSwVEeKfPsvLyN-NZg" name="ActionExecSpecFinish" covered="_3DNwlCwVEeKfPsvLyN-NZg" event="_3DO-giwVEeKfPsvLyN-NZg" execution="_3DNwvywVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwwiwVEeKfPsvLyN-NZg" name="//requestDataSignal_MessageRecv" covered="_3DNwliwVEeKfPsvLyN-NZg" event="_3DO-hCwVEeKfPsvLyN-NZg" message="_3DOXDiwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DNwwywVEeKfPsvLyN-NZg" name="ActionExecSpec0Start" covered="_3DNwliwVEeKfPsvLyN-NZg" event="_3DO-hSwVEeKfPsvLyN-NZg" execution="_3DNwxCwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DNwxCwVEeKfPsvLyN-NZg" name="ActionExecSpec0" covered="_3DNwliwVEeKfPsvLyN-NZg" start="_3DNwwywVEeKfPsvLyN-NZg" finish="_3DOWwCwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DNwxSwVEeKfPsvLyN-NZg" name="MessageSend" covered="_3DNwliwVEeKfPsvLyN-NZg" event="_3DO-hywVEeKfPsvLyN-NZg" message="_3DOXDywVEeKfPsvLyN-NZg"/>
-                  <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOWwCwVEeKfPsvLyN-NZg" name="ActionExecSpec0Finish" covered="_3DNwliwVEeKfPsvLyN-NZg" event="_3DO-hiwVEeKfPsvLyN-NZg" execution="_3DNwxCwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOWwSwVEeKfPsvLyN-NZg" name="MessageRecv" covered="_3DNwlywVEeKfPsvLyN-NZg" event="_3DO-iCwVEeKfPsvLyN-NZg" message="_3DOXDywVEeKfPsvLyN-NZg"/>
+                  <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOWwCwVEeKfPsvLyN-NZg" name="ActionExecSpec0Finish" covered="_3DNwliwVEeKfPsvLyN-NZg" event="_3DO-hiwVEeKfPsvLyN-NZg" execution="_3DNwxCwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOWwiwVEeKfPsvLyN-NZg" name="ActionExecSpec1Start" covered="_3DNwlywVEeKfPsvLyN-NZg" event="_3DO-iSwVEeKfPsvLyN-NZg" execution="_3DOWwywVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DOWwywVEeKfPsvLyN-NZg" name="ActionExecSpec1" covered="_3DNwlywVEeKfPsvLyN-NZg" start="_3DOWwiwVEeKfPsvLyN-NZg" finish="_3DOWxSwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOWxCwVEeKfPsvLyN-NZg" name="//dataSignalToUser_MessageSend" covered="_3DNwlywVEeKfPsvLyN-NZg" event="_3DO-jSwVEeKfPsvLyN-NZg" message="_3DOXECwVEeKfPsvLyN-NZg"/>
-                  <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOWxSwVEeKfPsvLyN-NZg" name="ActionExecSpec1Finish" covered="_3DNwlywVEeKfPsvLyN-NZg" event="_3DO-iiwVEeKfPsvLyN-NZg" execution="_3DOWwywVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOWxiwVEeKfPsvLyN-NZg" name="//dataSignalToUser_MessageRecv" covered="_3DNwliwVEeKfPsvLyN-NZg" event="_3DO-jiwVEeKfPsvLyN-NZg" message="_3DOXECwVEeKfPsvLyN-NZg"/>
+                  <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOWxSwVEeKfPsvLyN-NZg" name="ActionExecSpec1Finish" covered="_3DNwlywVEeKfPsvLyN-NZg" event="_3DO-iiwVEeKfPsvLyN-NZg" execution="_3DOWwywVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOWxywVEeKfPsvLyN-NZg" name="ActionExecSpec3Start" covered="_3DNwliwVEeKfPsvLyN-NZg" event="_3DO-jywVEeKfPsvLyN-NZg" execution="_3DOWyCwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DOWyCwVEeKfPsvLyN-NZg" name="ActionExecSpec3" covered="_3DNwliwVEeKfPsvLyN-NZg" start="_3DOWxywVEeKfPsvLyN-NZg" finish="_3DOWyywVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOWySwVEeKfPsvLyN-NZg" name="//dataSignalToUser_Message0Send" covered="_3DNwliwVEeKfPsvLyN-NZg" event="_3DO-kSwVEeKfPsvLyN-NZg" message="_3DOXESwVEeKfPsvLyN-NZg"/>
-                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOWyiwVEeKfPsvLyN-NZg" name="//dataSignalToUser_Message0Recv" covered="_3DNwlCwVEeKfPsvLyN-NZg" event="_3DO-kiwVEeKfPsvLyN-NZg" message="_3DOXESwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOWyywVEeKfPsvLyN-NZg" name="ActionExecSpec3Finish" covered="_3DNwliwVEeKfPsvLyN-NZg" event="_3DO-kCwVEeKfPsvLyN-NZg" execution="_3DOWyCwVEeKfPsvLyN-NZg"/>
+                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOWyiwVEeKfPsvLyN-NZg" name="//dataSignalToUser_Message0Recv" covered="_3DNwlCwVEeKfPsvLyN-NZg" event="_3DO-kiwVEeKfPsvLyN-NZg" message="_3DOXESwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOWzCwVEeKfPsvLyN-NZg" name="ActionExecSpec4Start" covered="_3DNwlCwVEeKfPsvLyN-NZg" event="_3DO-kywVEeKfPsvLyN-NZg" execution="_3DOWzSwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DOWzSwVEeKfPsvLyN-NZg" name="ActionExecSpec4" covered="_3DNwlCwVEeKfPsvLyN-NZg" start="_3DOWzCwVEeKfPsvLyN-NZg" finish="_3DOW1iwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOWziwVEeKfPsvLyN-NZg" name="//dataSignalToSound_MessageSend" covered="_3DNwlCwVEeKfPsvLyN-NZg" event="_3DPlcywVEeKfPsvLyN-NZg" message="_3DOXFSwVEeKfPsvLyN-NZg"/>
@@ -3446,8 +3458,8 @@
                   <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DOW0SwVEeKfPsvLyN-NZg" name="ActionExecSpec8" covered="_3DNwlCwVEeKfPsvLyN-NZg" start="_3DOW0CwVEeKfPsvLyN-NZg" finish="_3DOW0iwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOW0iwVEeKfPsvLyN-NZg" name="ActionExecSpec8Finish" covered="_3DNwlCwVEeKfPsvLyN-NZg" event="_3DPldiwVEeKfPsvLyN-NZg" execution="_3DOW0SwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOW0ywVEeKfPsvLyN-NZg" name="//create_MessageSend" covered="_3DNwlCwVEeKfPsvLyN-NZg" event="_3DPldywVEeKfPsvLyN-NZg" message="_3DOXFiwVEeKfPsvLyN-NZg"/>
-                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOW1CwVEeKfPsvLyN-NZg" name="//create_MessageRecv1" covered="_3DNwmiwVEeKfPsvLyN-NZg" event="_3DPleCwVEeKfPsvLyN-NZg" message="_3DOXFiwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOW1SwVEeKfPsvLyN-NZg" name="//playSound_MessageSend" covered="_3DNwlCwVEeKfPsvLyN-NZg" event="_3DPleSwVEeKfPsvLyN-NZg" message="_3DOXFywVEeKfPsvLyN-NZg"/>
+                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOW1CwVEeKfPsvLyN-NZg" name="//create_MessageRecv1" covered="_3DNwmiwVEeKfPsvLyN-NZg" event="_3DPleCwVEeKfPsvLyN-NZg" message="_3DOXFiwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOW1iwVEeKfPsvLyN-NZg" name="ActionExecSpec4Finish" covered="_3DNwlCwVEeKfPsvLyN-NZg" event="_3DO-lCwVEeKfPsvLyN-NZg" execution="_3DOWzSwVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOW1ywVEeKfPsvLyN-NZg" name="//playSound_MessageRecv0" covered="_3DNwkiwVEeKfPsvLyN-NZg" event="_3DPleiwVEeKfPsvLyN-NZg" message="_3DOXFywVEeKfPsvLyN-NZg"/>
                   <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOW2CwVEeKfPsvLyN-NZg" name="ActionExecSpec7Finish" covered="_3DNwkiwVEeKfPsvLyN-NZg" event="_3DO-piwVEeKfPsvLyN-NZg" execution="_3DNwviwVEeKfPsvLyN-NZg"/>
@@ -3617,13 +3629,11 @@
               <lifeline xmi:id="_3DOXeCwVEeKfPsvLyN-NZg" name="Lifeline2" represents="_3DOXnCwVEeKfPsvLyN-NZg" coveredBy="_3DOXiiwVEeKfPsvLyN-NZg _3DOXjSwVEeKfPsvLyN-NZg _3DOXkiwVEeKfPsvLyN-NZg _3DOXkCwVEeKfPsvLyN-NZg _3DOXkSwVEeKfPsvLyN-NZg"/>
               <lifeline xmi:id="_3DOXeSwVEeKfPsvLyN-NZg" name="Lifeline3" represents="_3DOXqCwVEeKfPsvLyN-NZg" coveredBy="_3DOXkywVEeKfPsvLyN-NZg _3DOXlCwVEeKfPsvLyN-NZg _3DOXliwVEeKfPsvLyN-NZg _3DOXlSwVEeKfPsvLyN-NZg"/>
               <lifeline xmi:id="_3DOXeiwVEeKfPsvLyN-NZg" name="Lifeline4" represents="_3DOXwywVEeKfPsvLyN-NZg" coveredBy="_3DOXjiwVEeKfPsvLyN-NZg _3DOXeywVEeKfPsvLyN-NZg _3DOXjywVEeKfPsvLyN-NZg _3DOXfiwVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOXeywVEeKfPsvLyN-NZg" name="ActionExecSpec4Start" covered="_3DOXeiwVEeKfPsvLyN-NZg" event="_3DPlMSwVEeKfPsvLyN-NZg" execution="_3DOXfiwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOXfCwVEeKfPsvLyN-NZg" name="ActionExecSpecStart" covered="_3DOXdSwVEeKfPsvLyN-NZg" event="_3DPlHSwVEeKfPsvLyN-NZg" execution="_3DOXfSwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DOXfSwVEeKfPsvLyN-NZg" name="ActionExecSpec" covered="_3DOXdSwVEeKfPsvLyN-NZg" start="_3DOXfCwVEeKfPsvLyN-NZg" finish="_3DOXgSwVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DOXfiwVEeKfPsvLyN-NZg" name="ActionExecSpec4" covered="_3DOXeiwVEeKfPsvLyN-NZg" start="_3DOXeywVEeKfPsvLyN-NZg" finish="_3DOXjywVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOXfywVEeKfPsvLyN-NZg" name="//handsetDown_MessageSend" covered="_3DOXdSwVEeKfPsvLyN-NZg" event="_3DPlHywVEeKfPsvLyN-NZg" message="_3DOXlywVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOXgCwVEeKfPsvLyN-NZg" name="//handsetDown_MessageRecv" covered="_3DOXdiwVEeKfPsvLyN-NZg" event="_3DPlICwVEeKfPsvLyN-NZg" message="_3DOXlywVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOXgSwVEeKfPsvLyN-NZg" name="ActionExecSpecFinish" covered="_3DOXdSwVEeKfPsvLyN-NZg" event="_3DPlHiwVEeKfPsvLyN-NZg" execution="_3DOXfSwVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOXgCwVEeKfPsvLyN-NZg" name="//handsetDown_MessageRecv" covered="_3DOXdiwVEeKfPsvLyN-NZg" event="_3DPlICwVEeKfPsvLyN-NZg" message="_3DOXlywVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOXgiwVEeKfPsvLyN-NZg" name="ActionExecSpec0Start" covered="_3DOXdiwVEeKfPsvLyN-NZg" event="_3DPlISwVEeKfPsvLyN-NZg" execution="_3DOXgywVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DOXgywVEeKfPsvLyN-NZg" name="ActionExecSpec0" covered="_3DOXdiwVEeKfPsvLyN-NZg" start="_3DOXgiwVEeKfPsvLyN-NZg" finish="_3DOXhSwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOXhCwVEeKfPsvLyN-NZg" name="//handsetDown_Message0Send" covered="_3DOXdiwVEeKfPsvLyN-NZg" event="_3DPlIywVEeKfPsvLyN-NZg" message="_3DOXmCwVEeKfPsvLyN-NZg"/>
@@ -3634,14 +3644,16 @@
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOXiSwVEeKfPsvLyN-NZg" name="//endSignalToTE_MessageSend" covered="_3DOXdywVEeKfPsvLyN-NZg" event="_3DPlJywVEeKfPsvLyN-NZg" message="_3DOXmSwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOXiiwVEeKfPsvLyN-NZg" name="//endSignalToTE_MessageRecv" covered="_3DOXeCwVEeKfPsvLyN-NZg" event="_3DPlKCwVEeKfPsvLyN-NZg" message="_3DOXmSwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOXiywVEeKfPsvLyN-NZg" name="//clear_MessageSend" covered="_3DOXdywVEeKfPsvLyN-NZg" event="_3DPlLywVEeKfPsvLyN-NZg" message="_3DOXmywVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOXjCwVEeKfPsvLyN-NZg" name="ActionExecSpec1Finish" covered="_3DOXdywVEeKfPsvLyN-NZg" event="_3DPlJiwVEeKfPsvLyN-NZg" execution="_3DOXiCwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOXjSwVEeKfPsvLyN-NZg" name="ActionExecSpec2Start" covered="_3DOXeCwVEeKfPsvLyN-NZg" event="_3DPlKSwVEeKfPsvLyN-NZg" execution="_3DOXkCwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOXjiwVEeKfPsvLyN-NZg" name="//clear_MessageRecv" covered="_3DOXeiwVEeKfPsvLyN-NZg" event="_3DPlMCwVEeKfPsvLyN-NZg" message="_3DOXmywVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOXjywVEeKfPsvLyN-NZg" name="ActionExecSpec4Finish" covered="_3DOXeiwVEeKfPsvLyN-NZg" event="_3DPlMiwVEeKfPsvLyN-NZg" execution="_3DOXfiwVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOXjCwVEeKfPsvLyN-NZg" name="ActionExecSpec1Finish" covered="_3DOXdywVEeKfPsvLyN-NZg" event="_3DPlJiwVEeKfPsvLyN-NZg" execution="_3DOXiCwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DOXkCwVEeKfPsvLyN-NZg" name="ActionExecSpec2" covered="_3DOXeCwVEeKfPsvLyN-NZg" start="_3DOXjSwVEeKfPsvLyN-NZg" finish="_3DOXkiwVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOXeywVEeKfPsvLyN-NZg" name="ActionExecSpec4Start" covered="_3DOXeiwVEeKfPsvLyN-NZg" event="_3DPlMSwVEeKfPsvLyN-NZg" execution="_3DOXfiwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOXkSwVEeKfPsvLyN-NZg" name="MessageSend" covered="_3DOXeCwVEeKfPsvLyN-NZg" event="_3DPlKywVEeKfPsvLyN-NZg" message="_3DOXmiwVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOXkiwVEeKfPsvLyN-NZg" name="ActionExecSpec2Finish" covered="_3DOXeCwVEeKfPsvLyN-NZg" event="_3DPlKiwVEeKfPsvLyN-NZg" execution="_3DOXkCwVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DOXfiwVEeKfPsvLyN-NZg" name="ActionExecSpec4" covered="_3DOXeiwVEeKfPsvLyN-NZg" start="_3DOXeywVEeKfPsvLyN-NZg" finish="_3DOXjywVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DOXkywVEeKfPsvLyN-NZg" name="MessageRecv" covered="_3DOXeSwVEeKfPsvLyN-NZg" event="_3DPlLCwVEeKfPsvLyN-NZg" message="_3DOXmiwVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOXkiwVEeKfPsvLyN-NZg" name="ActionExecSpec2Finish" covered="_3DOXeCwVEeKfPsvLyN-NZg" event="_3DPlKiwVEeKfPsvLyN-NZg" execution="_3DOXkCwVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOXjywVEeKfPsvLyN-NZg" name="ActionExecSpec4Finish" covered="_3DOXeiwVEeKfPsvLyN-NZg" event="_3DPlMiwVEeKfPsvLyN-NZg" execution="_3DOXfiwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOXlCwVEeKfPsvLyN-NZg" name="ActionExecSpec3Start" covered="_3DOXeSwVEeKfPsvLyN-NZg" event="_3DPlLSwVEeKfPsvLyN-NZg" execution="_3DOXlSwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DOXlSwVEeKfPsvLyN-NZg" name="ActionExecSpec3" covered="_3DOXeSwVEeKfPsvLyN-NZg" start="_3DOXlCwVEeKfPsvLyN-NZg" finish="_3DOXliwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DOXliwVEeKfPsvLyN-NZg" name="ActionExecSpec3Finish" covered="_3DOXeSwVEeKfPsvLyN-NZg" event="_3DPlLiwVEeKfPsvLyN-NZg" execution="_3DOXlSwVEeKfPsvLyN-NZg"/>
@@ -3651,7 +3663,7 @@
               <message xmi:id="_3DOXmiwVEeKfPsvLyN-NZg" name="//busySignal" receiveEvent="_3DOXkywVEeKfPsvLyN-NZg" sendEvent="_3DOXkSwVEeKfPsvLyN-NZg"/>
               <message xmi:id="_3DOXmywVEeKfPsvLyN-NZg" name="//clear_Message" receiveEvent="_3DOXjiwVEeKfPsvLyN-NZg" sendEvent="_3DOXiywVEeKfPsvLyN-NZg"/>
             </ownedBehavior>
-            <ownedAttribute xmi:id="_3DOXnCwVEeKfPsvLyN-NZg" name="link" type="_3DPlhSwVEeKfPsvLyN-NZg">
+            <ownedAttribute xmi:id="_3DOXnCwVEeKfPsvLyN-NZg" name="link" type="_aOfFYCzsEeKpcNdGO_5EZA">
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3DOXnSwVEeKfPsvLyN-NZg" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DOXniwVEeKfPsvLyN-NZg" value="1"/>
               <qualifier xmi:id="_3DOXnywVEeKfPsvLyN-NZg" name="CopyOf_property1_1">
@@ -3659,7 +3671,7 @@
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DOXoSwVEeKfPsvLyN-NZg" value="1"/>
               </qualifier>
             </ownedAttribute>
-            <ownedAttribute xmi:id="_3DOXoiwVEeKfPsvLyN-NZg" name="tel" type="_3DPllCwVEeKfPsvLyN-NZg">
+            <ownedAttribute xmi:id="_3DOXoiwVEeKfPsvLyN-NZg" name="tel" type="_w09ukCziEeKpcNdGO_5EZA">
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3DOXoywVEeKfPsvLyN-NZg" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DOXpCwVEeKfPsvLyN-NZg" value="1"/>
               <qualifier xmi:id="_3DOXpSwVEeKfPsvLyN-NZg" name="CopyOf_property1_1">
@@ -3729,30 +3741,30 @@
               <lifeline xmi:id="_3DO90CwVEeKfPsvLyN-NZg" name="Lifeline3" represents="_3DO9-SwVEeKfPsvLyN-NZg" coveredBy="_3DO96SwVEeKfPsvLyN-NZg _3DO96ywVEeKfPsvLyN-NZg _3DO97SwVEeKfPsvLyN-NZg _3DO97CwVEeKfPsvLyN-NZg"/>
               <lifeline xmi:id="_3DO90SwVEeKfPsvLyN-NZg" name="Lifeline4" represents="_3DO-ESwVEeKfPsvLyN-NZg" coveredBy="_3DO95SwVEeKfPsvLyN-NZg _3DO90ywVEeKfPsvLyN-NZg _3DO95iwVEeKfPsvLyN-NZg _3DO91CwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO90iwVEeKfPsvLyN-NZg" name="ActionExecSpecStart" covered="_3DOX0SwVEeKfPsvLyN-NZg" event="_3DPlHSwVEeKfPsvLyN-NZg" execution="_3DO91SwVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO90ywVEeKfPsvLyN-NZg" name="ActionExecSpec4Start" covered="_3DO90SwVEeKfPsvLyN-NZg" event="_3DPlMSwVEeKfPsvLyN-NZg" execution="_3DO91CwVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DO91CwVEeKfPsvLyN-NZg" name="ActionExecSpec4" covered="_3DO90SwVEeKfPsvLyN-NZg" start="_3DO90ywVEeKfPsvLyN-NZg" finish="_3DO95iwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DO91SwVEeKfPsvLyN-NZg" name="ActionExecSpec" covered="_3DOX0SwVEeKfPsvLyN-NZg" start="_3DO90iwVEeKfPsvLyN-NZg" finish="_3DO91ywVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DO91iwVEeKfPsvLyN-NZg" name="//handsetDown_MessageSend" covered="_3DOX0SwVEeKfPsvLyN-NZg" event="_3DPlHywVEeKfPsvLyN-NZg" message="_3DO97iwVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO91ywVEeKfPsvLyN-NZg" name="ActionExecSpecFinish" covered="_3DOX0SwVEeKfPsvLyN-NZg" event="_3DPlHiwVEeKfPsvLyN-NZg" execution="_3DO91SwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DO92CwVEeKfPsvLyN-NZg" name="//handsetDown_MessageRecv" covered="_3DOX0iwVEeKfPsvLyN-NZg" event="_3DPlICwVEeKfPsvLyN-NZg" message="_3DO97iwVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO91ywVEeKfPsvLyN-NZg" name="ActionExecSpecFinish" covered="_3DOX0SwVEeKfPsvLyN-NZg" event="_3DPlHiwVEeKfPsvLyN-NZg" execution="_3DO91SwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO92SwVEeKfPsvLyN-NZg" name="ActionExecSpec0Start" covered="_3DOX0iwVEeKfPsvLyN-NZg" event="_3DPlISwVEeKfPsvLyN-NZg" execution="_3DO92iwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DO92iwVEeKfPsvLyN-NZg" name="ActionExecSpec0" covered="_3DOX0iwVEeKfPsvLyN-NZg" start="_3DO92SwVEeKfPsvLyN-NZg" finish="_3DO93SwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DO92ywVEeKfPsvLyN-NZg" name="//handsetDown_Message0Send" covered="_3DOX0iwVEeKfPsvLyN-NZg" event="_3DPlIywVEeKfPsvLyN-NZg" message="_3DO97ywVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DO93CwVEeKfPsvLyN-NZg" name="//handsetDown_Message0Recv" covered="_3DOX0ywVEeKfPsvLyN-NZg" event="_3DPlJCwVEeKfPsvLyN-NZg" message="_3DO97ywVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO93SwVEeKfPsvLyN-NZg" name="ActionExecSpec0Finish" covered="_3DOX0iwVEeKfPsvLyN-NZg" event="_3DPlIiwVEeKfPsvLyN-NZg" execution="_3DO92iwVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DO93CwVEeKfPsvLyN-NZg" name="//handsetDown_Message0Recv" covered="_3DOX0ywVEeKfPsvLyN-NZg" event="_3DPlJCwVEeKfPsvLyN-NZg" message="_3DO97ywVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO93iwVEeKfPsvLyN-NZg" name="ActionExecSpec1Start" covered="_3DOX0ywVEeKfPsvLyN-NZg" event="_3DPlJSwVEeKfPsvLyN-NZg" execution="_3DO93ywVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DO93ywVEeKfPsvLyN-NZg" name="ActionExecSpec1" covered="_3DOX0ywVEeKfPsvLyN-NZg" start="_3DO93iwVEeKfPsvLyN-NZg" finish="_3DO94ywVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DO94CwVEeKfPsvLyN-NZg" name="//endSignalToTE_MessageSend" covered="_3DOX0ywVEeKfPsvLyN-NZg" event="_3DPlJywVEeKfPsvLyN-NZg" message="_3DO98CwVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DO94SwVEeKfPsvLyN-NZg" name="//clear_MessageSend" covered="_3DOX0ywVEeKfPsvLyN-NZg" event="_3DPlLywVEeKfPsvLyN-NZg" message="_3DO98iwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DO94iwVEeKfPsvLyN-NZg" name="//endSignalToTE_MessageRecv" covered="_3DOX1CwVEeKfPsvLyN-NZg" event="_3DPlKCwVEeKfPsvLyN-NZg" message="_3DO98CwVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO94ywVEeKfPsvLyN-NZg" name="ActionExecSpec1Finish" covered="_3DOX0ywVEeKfPsvLyN-NZg" event="_3DPlJiwVEeKfPsvLyN-NZg" execution="_3DO93ywVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO95CwVEeKfPsvLyN-NZg" name="ActionExecSpec2Start" covered="_3DOX1CwVEeKfPsvLyN-NZg" event="_3DPlKSwVEeKfPsvLyN-NZg" execution="_3DO95ywVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DO94SwVEeKfPsvLyN-NZg" name="//clear_MessageSend" covered="_3DOX0ywVEeKfPsvLyN-NZg" event="_3DPlLywVEeKfPsvLyN-NZg" message="_3DO98iwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DO95SwVEeKfPsvLyN-NZg" name="//clear_MessageRecv" covered="_3DO90SwVEeKfPsvLyN-NZg" event="_3DPlMCwVEeKfPsvLyN-NZg" message="_3DO98iwVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO95iwVEeKfPsvLyN-NZg" name="ActionExecSpec4Finish" covered="_3DO90SwVEeKfPsvLyN-NZg" event="_3DPlMiwVEeKfPsvLyN-NZg" execution="_3DO91CwVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO95CwVEeKfPsvLyN-NZg" name="ActionExecSpec2Start" covered="_3DOX1CwVEeKfPsvLyN-NZg" event="_3DPlKSwVEeKfPsvLyN-NZg" execution="_3DO95ywVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO94ywVEeKfPsvLyN-NZg" name="ActionExecSpec1Finish" covered="_3DOX0ywVEeKfPsvLyN-NZg" event="_3DPlJiwVEeKfPsvLyN-NZg" execution="_3DO93ywVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO90ywVEeKfPsvLyN-NZg" name="ActionExecSpec4Start" covered="_3DO90SwVEeKfPsvLyN-NZg" event="_3DPlMSwVEeKfPsvLyN-NZg" execution="_3DO91CwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DO95ywVEeKfPsvLyN-NZg" name="ActionExecSpec2" covered="_3DOX1CwVEeKfPsvLyN-NZg" start="_3DO95CwVEeKfPsvLyN-NZg" finish="_3DO96iwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DO96CwVEeKfPsvLyN-NZg" name="MessageSend" covered="_3DOX1CwVEeKfPsvLyN-NZg" event="_3DPlKywVEeKfPsvLyN-NZg" message="_3DO98SwVEeKfPsvLyN-NZg"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DO96SwVEeKfPsvLyN-NZg" name="MessageRecv" covered="_3DO90CwVEeKfPsvLyN-NZg" event="_3DPlLCwVEeKfPsvLyN-NZg" message="_3DO98SwVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DO91CwVEeKfPsvLyN-NZg" name="ActionExecSpec4" covered="_3DO90SwVEeKfPsvLyN-NZg" start="_3DO90ywVEeKfPsvLyN-NZg" finish="_3DO95iwVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO95iwVEeKfPsvLyN-NZg" name="ActionExecSpec4Finish" covered="_3DO90SwVEeKfPsvLyN-NZg" event="_3DPlMiwVEeKfPsvLyN-NZg" execution="_3DO91CwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO96iwVEeKfPsvLyN-NZg" name="ActionExecSpec2Finish" covered="_3DOX1CwVEeKfPsvLyN-NZg" event="_3DPlKiwVEeKfPsvLyN-NZg" execution="_3DO95ywVEeKfPsvLyN-NZg"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3DO96SwVEeKfPsvLyN-NZg" name="MessageRecv" covered="_3DO90CwVEeKfPsvLyN-NZg" event="_3DPlLCwVEeKfPsvLyN-NZg" message="_3DO98SwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO96ywVEeKfPsvLyN-NZg" name="ActionExecSpec3Start" covered="_3DO90CwVEeKfPsvLyN-NZg" event="_3DPlLSwVEeKfPsvLyN-NZg" execution="_3DO97CwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3DO97CwVEeKfPsvLyN-NZg" name="ActionExecSpec3" covered="_3DO90CwVEeKfPsvLyN-NZg" start="_3DO96ywVEeKfPsvLyN-NZg" finish="_3DO97SwVEeKfPsvLyN-NZg"/>
               <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3DO97SwVEeKfPsvLyN-NZg" name="ActionExecSpec3Finish" covered="_3DO90CwVEeKfPsvLyN-NZg" event="_3DPlLiwVEeKfPsvLyN-NZg" execution="_3DO97CwVEeKfPsvLyN-NZg"/>
@@ -3762,7 +3774,7 @@
               <message xmi:id="_3DO98SwVEeKfPsvLyN-NZg" name="//endSignal" receiveEvent="_3DO96SwVEeKfPsvLyN-NZg" sendEvent="_3DO96CwVEeKfPsvLyN-NZg"/>
               <message xmi:id="_3DO98iwVEeKfPsvLyN-NZg" name="//clear_Message" receiveEvent="_3DO95SwVEeKfPsvLyN-NZg" sendEvent="_3DO94SwVEeKfPsvLyN-NZg"/>
             </ownedBehavior>
-            <ownedAttribute xmi:id="_3DO98ywVEeKfPsvLyN-NZg" name="link" type="_3DPlhSwVEeKfPsvLyN-NZg">
+            <ownedAttribute xmi:id="_3DO98ywVEeKfPsvLyN-NZg" name="link" type="_aOfFYCzsEeKpcNdGO_5EZA">
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3DO99CwVEeKfPsvLyN-NZg" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DO99SwVEeKfPsvLyN-NZg" value="1"/>
               <qualifier xmi:id="_3DO99iwVEeKfPsvLyN-NZg" name="CopyOf_property1_1">
@@ -3786,7 +3798,7 @@
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DO-BCwVEeKfPsvLyN-NZg" value="1"/>
               </qualifier>
             </ownedAttribute>
-            <ownedAttribute xmi:id="_3DO-BSwVEeKfPsvLyN-NZg" name="tel" type="_3DPllCwVEeKfPsvLyN-NZg">
+            <ownedAttribute xmi:id="_3DO-BSwVEeKfPsvLyN-NZg" name="tel" type="_w09ukCziEeKpcNdGO_5EZA">
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3DO-BiwVEeKfPsvLyN-NZg" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DO-BywVEeKfPsvLyN-NZg" value="1"/>
               <qualifier xmi:id="_3DO-CCwVEeKfPsvLyN-NZg" name="CopyOf_property1_1">
