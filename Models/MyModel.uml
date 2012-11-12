@@ -2654,7 +2654,7 @@
                 <ownedParameter xmi:id="_OC1T8C0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_0UB2cCziEeKpcNdGO_5EZA" name="receiveDigit">
-                <ownedParameter xmi:id="_SS1wkC0EEeKpcNdGO_5EZA" name="dig" type="_YvRQLywVEeKfPsvLyN-NZg"/>
+                <ownedParameter xmi:id="_SS1wkC0EEeKpcNdGO_5EZA" name="dig" type="_YvRQLywVEeKfPsvLyN-NZg" isUnique="false"/>
                 <ownedParameter xmi:id="_TrNRsC0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_0UB2cSziEeKpcNdGO_5EZA" name="handsetDown">
@@ -2667,7 +2667,6 @@
                 <ownedParameter xmi:id="_wQ1OUC0EEeKpcNdGO_5EZA" type="_YvRQLiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_0UBPYyziEeKpcNdGO_5EZA" name="saveLastNumber" visibility="private">
-                <ownedParameter xmi:id="_ynYO8C0EEeKpcNdGO_5EZA" name="num" type="_YvRQLywVEeKfPsvLyN-NZg"/>
                 <ownedParameter xmi:id="_0MAqcC0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
             </packagedElement>
@@ -2696,14 +2695,15 @@
           <packagedElement xmi:type="uml:Package" xmi:id="_gT6XECziEeKpcNdGO_5EZA" name="Telephone">
             <packageImport xmi:id="_abhVcCzkEeKpcNdGO_5EZA" importedPackage="_txSiMCziEeKpcNdGO_5EZA"/>
             <packageImport xmi:id="_a0tRgCzkEeKpcNdGO_5EZA" importedPackage="_qScQACzSEeKchaPxbKttGQ"/>
-            <packagedElement xmi:type="uml:Class" xmi:id="_3DPllCwVEeKfPsvLyN-NZg" name="Telephone">
-              <ownedAttribute xmi:id="_3DPllSwVEeKfPsvLyN-NZg" name="number" visibility="private"/>
-              <ownedAttribute xmi:id="_3DPlliwVEeKfPsvLyN-NZg" name="lastNumber" visibility="private"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_3DPllCwVEeKfPsvLyN-NZg" name="Telephone" clientDependency="_muZNwC0PEeKpcNdGO_5EZA">
+              <ownedAttribute xmi:id="_zOlicC0QEeKpcNdGO_5EZA" name="st" visibility="private" type="_IQIJ8C0OEeKpcNdGO_5EZA">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zOwhkC0QEeKpcNdGO_5EZA" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zOrpEC0QEeKpcNdGO_5EZA" value="1"/>
+              </ownedAttribute>
               <ownedOperation xmi:id="_7x6E0C0EEeKpcNdGO_5EZA" name="sendBusySignalToUser">
                 <ownedParameter xmi:id="_7x6E0S0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_7x6E0i0EEeKpcNdGO_5EZA" name="saveLastNumber" visibility="private">
-                <ownedParameter xmi:id="_7x6E0y0EEeKpcNdGO_5EZA" name="num" type="_YvRQLywVEeKfPsvLyN-NZg"/>
                 <ownedParameter xmi:id="_7x6E1C0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_7x6E1S0EEeKpcNdGO_5EZA" name="sendNumberSignToTE">
@@ -2725,13 +2725,48 @@
                 <ownedParameter xmi:id="_7x6r5y0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_7x6r6C0EEeKpcNdGO_5EZA" name="sendDigitToTE">
-                <ownedParameter xmi:id="_7x6r6S0EEeKpcNdGO_5EZA" name="dig" type="_YvRQLywVEeKfPsvLyN-NZg"/>
+                <ownedParameter xmi:id="_7x6r6S0EEeKpcNdGO_5EZA" name="dig" type="_YvRQLywVEeKfPsvLyN-NZg" isUnique="false"/>
                 <ownedParameter xmi:id="_7x6r6i0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
               <ownedOperation xmi:id="_7x7S8C0EEeKpcNdGO_5EZA" name="handsetUp">
                 <ownedParameter xmi:id="_7x7S8S0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
             </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_IQIJ8C0OEeKpcNdGO_5EZA" name="State">
+              <ownedAttribute xmi:id="_LyuG8C0OEeKpcNdGO_5EZA" name="savedNumber" type="_YvRQLywVEeKfPsvLyN-NZg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ly4fAC0OEeKpcNdGO_5EZA" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LyzmgC0OEeKpcNdGO_5EZA" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_NkcjQC0OEeKpcNdGO_5EZA" name="hasSavedNumber" type="_YvRQLiwVEeKfPsvLyN-NZg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NkowgC0OEeKpcNdGO_5EZA" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NkjQ8C0OEeKpcNdGO_5EZA" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_PQf1YC0OEeKpcNdGO_5EZA" name="currentNumber" type="_YvRQLywVEeKfPsvLyN-NZg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PQpmYC0OEeKpcNdGO_5EZA" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PQlU8C0OEeKpcNdGO_5EZA" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_Q1YvkC0OEeKpcNdGO_5EZA" name="currentNumberLength" type="_YvRQLywVEeKfPsvLyN-NZg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Q1jusC0OEeKpcNdGO_5EZA" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q1e2MC0OEeKpcNdGO_5EZA" value="1"/>
+              </ownedAttribute>
+              <ownedOperation xmi:id="_cQrHIC0OEeKpcNdGO_5EZA" name="getSavedNumber"/>
+              <ownedOperation xmi:id="_fGI4YC0OEeKpcNdGO_5EZA" name="setSavedNumber"/>
+              <ownedOperation xmi:id="_ihT-wC0OEeKpcNdGO_5EZA" name="hasSavedNumber"/>
+              <ownedOperation xmi:id="_lv724C0OEeKpcNdGO_5EZA" name="getCurrentNumber"/>
+              <ownedOperation xmi:id="_nN7e4C0OEeKpcNdGO_5EZA" name="getCurrentNumberLength"/>
+              <ownedOperation xmi:id="_o8BYYC0OEeKpcNdGO_5EZA" name="addDigitToCurrentNumber"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_GUREwC0PEeKpcNdGO_5EZA" name="telephone_state_1" memberEnd="_GUREwS0PEeKpcNdGO_5EZA _GUQdsC0PEeKpcNdGO_5EZA">
+              <ownedEnd xmi:id="_GUREwS0PEeKpcNdGO_5EZA" name="telephone" type="_3DPllCwVEeKfPsvLyN-NZg" association="_GUREwC0PEeKpcNdGO_5EZA">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GUREwi0PEeKpcNdGO_5EZA" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GUREwy0PEeKpcNdGO_5EZA" value="1"/>
+              </ownedEnd>
+              <ownedEnd xmi:id="_GUQdsC0PEeKpcNdGO_5EZA" name="state" type="_IQIJ8C0OEeKpcNdGO_5EZA" aggregation="composite" association="_GUREwC0PEeKpcNdGO_5EZA">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GUQdsS0PEeKpcNdGO_5EZA" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GUQdsi0PEeKpcNdGO_5EZA" value="1"/>
+              </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Realization" xmi:id="_muZNwC0PEeKpcNdGO_5EZA" name="Realization1" supplier="_w09ukCziEeKpcNdGO_5EZA" client="_3DPllCwVEeKfPsvLyN-NZg"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_XO688CzsEeKpcNdGO_5EZA" name="Link">
             <packageImport xmi:id="_kYo1IC0AEeKpcNdGO_5EZA" importedPackage="_txSiMCziEeKpcNdGO_5EZA"/>
@@ -4535,7 +4570,7 @@
   <_4prak:layer xmi:id="_6ioWcCzREeKchaPxbKttGQ" base_Package="_hIQ7UCwVEeKfPsvLyN-NZg"/>
   <_4prak:layer xmi:id="_9Q9k8CzREeKchaPxbKttGQ" base_Package="_YvQpACwVEeKfPsvLyN-NZg"/>
   <_4prak:subsystem xmi:id="_r6jDACziEeKpcNdGO_5EZA" base_Package="_gT6XECziEeKpcNdGO_5EZA"/>
-  <_4prak:subsystemproxy xmi:id="_C6Tt4CzkEeKpcNdGO_5EZA" base_Class="_3DPllCwVEeKfPsvLyN-NZg"/>
   <_4prak:subsystem xmi:id="_VDlncCzkEeKpcNdGO_5EZA" base_Package="_vdtMUCwUEeKfPsvLyN-NZg"/>
   <_4prak:subsystemproxy xmi:id="_eend0CzsEeKpcNdGO_5EZA" base_Class="_3DPlhSwVEeKfPsvLyN-NZg"/>
+  <_4prak:subsystemproxy xmi:id="_krfh4C0PEeKpcNdGO_5EZA" base_Class="_3DPllCwVEeKfPsvLyN-NZg"/>
 </xmi:XMI>
