@@ -2638,18 +2638,38 @@
           <packagedElement xmi:type="uml:Package" xmi:id="_txSiMCziEeKpcNdGO_5EZA" name="Interfaces">
             <packageImport xmi:id="_b1GXgCzkEeKpcNdGO_5EZA" importedPackage="_qScQACzSEeKchaPxbKttGQ"/>
             <packagedElement xmi:type="uml:Interface" xmi:id="_w09ukCziEeKpcNdGO_5EZA" name="ITelephone">
-              <ownedOperation xmi:id="_0UAoUCziEeKpcNdGO_5EZA" name="sendBusySignalToUser"/>
-              <ownedOperation xmi:id="_0UAoUSziEeKpcNdGO_5EZA" name="sendToneSignalToUser"/>
-              <ownedOperation xmi:id="_0UBPYSziEeKpcNdGO_5EZA" name="sendDataSignalToUser"/>
-              <ownedOperation xmi:id="_0UB2dCziEeKpcNdGO_5EZA" name="sendCancelSignalToUser"/>
-              <ownedOperation xmi:id="_0UCdgCziEeKpcNdGO_5EZA" name="sendCallSignalToUser"/>
-              <ownedOperation xmi:id="_0UBPZCziEeKpcNdGO_5EZA" name="sendNumberSignToTE"/>
-              <ownedOperation xmi:id="_0UB2cCziEeKpcNdGO_5EZA" name="sendDigitToTE"/>
-              <ownedOperation xmi:id="_0UBPYiziEeKpcNdGO_5EZA" name="getRecordedSound"/>
-              <ownedOperation xmi:id="_0UB2cSziEeKpcNdGO_5EZA" name="handsetDown"/>
-              <ownedOperation xmi:id="_0UB2ciziEeKpcNdGO_5EZA" name="handsetUp"/>
-              <ownedOperation xmi:id="_0UB2dSziEeKpcNdGO_5EZA" name="hasSavedLastNumber" visibility="private"/>
-              <ownedOperation xmi:id="_0UBPYyziEeKpcNdGO_5EZA" name="saveLastNumber" visibility="private"/>
+              <ownedOperation xmi:id="_0UAoUCziEeKpcNdGO_5EZA" name="sendBusySignalToUser">
+                <ownedParameter xmi:id="_HVyNIC0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_0UAoUSziEeKpcNdGO_5EZA" name="sendToneSignalToUser">
+                <ownedParameter xmi:id="_I4tYcC0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_0UB2dCziEeKpcNdGO_5EZA" name="sendCancelSignalToUser">
+                <ownedParameter xmi:id="_KaoeMC0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_0UCdgCziEeKpcNdGO_5EZA" name="sendCallSignalToUser">
+                <ownedParameter xmi:id="_L8w_UC0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_0UBPZCziEeKpcNdGO_5EZA" name="sendNumberSignToTE">
+                <ownedParameter xmi:id="_OC1T8C0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_0UB2cCziEeKpcNdGO_5EZA" name="sendDigitToTE">
+                <ownedParameter xmi:id="_SS1wkC0EEeKpcNdGO_5EZA" name="dig" type="_YvRQLywVEeKfPsvLyN-NZg"/>
+                <ownedParameter xmi:id="_TrNRsC0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_0UB2cSziEeKpcNdGO_5EZA" name="handsetDown">
+                <ownedParameter xmi:id="_r_3IYC0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_0UB2ciziEeKpcNdGO_5EZA" name="handsetUp">
+                <ownedParameter xmi:id="_tibHUC0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_0UB2dSziEeKpcNdGO_5EZA" name="hasSavedLastNumber" visibility="private">
+                <ownedParameter xmi:id="_wQ1OUC0EEeKpcNdGO_5EZA" type="_YvRQLiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_0UBPYyziEeKpcNdGO_5EZA" name="saveLastNumber" visibility="private">
+                <ownedParameter xmi:id="_ynYO8C0EEeKpcNdGO_5EZA" name="num" type="_YvRQLywVEeKfPsvLyN-NZg"/>
+                <ownedParameter xmi:id="_0MAqcC0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Interface" xmi:id="_aOfFYCzsEeKpcNdGO_5EZA" name="ILink">
               <ownedOperation xmi:id="_KzGqlCzuEeKpcNdGO_5EZA" name="requestDataSignalFromTE">
@@ -2691,12 +2711,76 @@
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPllCwVEeKfPsvLyN-NZg" name="Telephone">
               <ownedAttribute xmi:id="_3DPllSwVEeKfPsvLyN-NZg" name="number" visibility="private"/>
               <ownedAttribute xmi:id="_3DPlliwVEeKfPsvLyN-NZg" name="lastNumber" visibility="private"/>
+              <ownedOperation xmi:id="_7x6E0C0EEeKpcNdGO_5EZA" name="sendBusySignalToUser">
+                <ownedParameter xmi:id="_7x6E0S0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_7x6E0i0EEeKpcNdGO_5EZA" name="saveLastNumber" visibility="private">
+                <ownedParameter xmi:id="_7x6E0y0EEeKpcNdGO_5EZA" name="num" type="_YvRQLywVEeKfPsvLyN-NZg"/>
+                <ownedParameter xmi:id="_7x6E1C0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_7x6E1S0EEeKpcNdGO_5EZA" name="sendNumberSignToTE">
+                <ownedParameter xmi:id="_7x6E1i0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_7x6E1y0EEeKpcNdGO_5EZA" name="hasSavedLastNumber" visibility="private">
+                <ownedParameter xmi:id="_7x6E2C0EEeKpcNdGO_5EZA" type="_YvRQLiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_7x6r4C0EEeKpcNdGO_5EZA" name="handsetDown">
+                <ownedParameter xmi:id="_7x6r4S0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_7x6r4i0EEeKpcNdGO_5EZA" name="sendCancelSignalToUser">
+                <ownedParameter xmi:id="_7x6r4y0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_7x6r5C0EEeKpcNdGO_5EZA" name="sendToneSignalToUser">
+                <ownedParameter xmi:id="_7x6r5S0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_7x6r5i0EEeKpcNdGO_5EZA" name="sendCallSignalToUser">
+                <ownedParameter xmi:id="_7x6r5y0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_7x6r6C0EEeKpcNdGO_5EZA" name="sendDigitToTE">
+                <ownedParameter xmi:id="_7x6r6S0EEeKpcNdGO_5EZA" name="dig" type="_YvRQLywVEeKfPsvLyN-NZg"/>
+                <ownedParameter xmi:id="_7x6r6i0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_7x7S8C0EEeKpcNdGO_5EZA" name="handsetUp">
+                <ownedParameter xmi:id="_7x7S8S0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
             </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_XO688CzsEeKpcNdGO_5EZA" name="Link">
             <packageImport xmi:id="_kYo1IC0AEeKpcNdGO_5EZA" importedPackage="_txSiMCziEeKpcNdGO_5EZA"/>
             <packageImport xmi:id="_lGyUkC0AEeKpcNdGO_5EZA" importedPackage="_qScQACzSEeKchaPxbKttGQ"/>
-            <packagedElement xmi:type="uml:Class" xmi:id="_3DPlhSwVEeKfPsvLyN-NZg" name="Link"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_3DPlhSwVEeKfPsvLyN-NZg" name="Link">
+              <ownedOperation xmi:id="_9NFpYC0EEeKpcNdGO_5EZA" name="sendDigitSignalToTE">
+                <ownedParameter xmi:id="_9NFpYS0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_9NGQcC0EEeKpcNdGO_5EZA" name="sendHandsetSignalToTE">
+                <ownedParameter xmi:id="_9NGQcS0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_9NGQci0EEeKpcNdGO_5EZA" name="sendBusySignalToTE">
+                <ownedParameter xmi:id="_9NGQcy0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_9NGQdC0EEeKpcNdGO_5EZA" name="requestDataSignalFromTE">
+                <ownedParameter xmi:id="_9NGQdS0EEeKpcNdGO_5EZA" type="_3DPlkSwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_9NGQdi0EEeKpcNdGO_5EZA" name="sendCallSignalToUser">
+                <ownedParameter xmi:id="_9NGQdy0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_9NGQeC0EEeKpcNdGO_5EZA" name="sendDataSignalToTE">
+                <ownedParameter xmi:id="_9NGQeS0EEeKpcNdGO_5EZA" name="sig" type="_3DPlkSwVEeKfPsvLyN-NZg"/>
+                <ownedParameter xmi:id="_9NGQei0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_9NG3gC0EEeKpcNdGO_5EZA" name="sendEndSignalToTE">
+                <ownedParameter xmi:id="_9NG3gS0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_9NG3gi0EEeKpcNdGO_5EZA" name="sendBusySignalToUser">
+                <ownedParameter xmi:id="_9NG3gy0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_9NG3hC0EEeKpcNdGO_5EZA" name="sendToneSignalToUser">
+                <ownedParameter xmi:id="_9NG3hS0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_9NG3hi0EEeKpcNdGO_5EZA" name="sendCancelSignalToUser">
+                <ownedParameter xmi:id="_9NG3hy0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_3DMhkSwVEeKfPsvLyN-NZg" name="UseCase Realizations">
@@ -3606,8 +3690,8 @@
             </ownedBehavior>
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_3DOXGCwVEeKfPsvLyN-NZg" name="DERecordSoundSubflow">
               <lifeline xmi:id="_3DOXGSwVEeKfPsvLyN-NZg" name="Lifeline" represents="_3DOXtCwVEeKfPsvLyN-NZg" coveredBy="_3DOXIywVEeKfPsvLyN-NZg _3DOXLywVEeKfPsvLyN-NZg _3DOXJSwVEeKfPsvLyN-NZg _3DOXKywVEeKfPsvLyN-NZg _3DOXLiwVEeKfPsvLyN-NZg _3DOXXiwVEeKfPsvLyN-NZg _3DOXZSwVEeKfPsvLyN-NZg _3DOXZiwVEeKfPsvLyN-NZg _3DOXZywVEeKfPsvLyN-NZg _3DOXaSwVEeKfPsvLyN-NZg _3DOXaCwVEeKfPsvLyN-NZg"/>
-              <lifeline xmi:id="_3DOXGiwVEeKfPsvLyN-NZg" name="Lifeline0" represents="_3DOXuiwVEeKfPsvLyN-NZg" coveredBy="_3DOXJywVEeKfPsvLyN-NZg _3DOXKiwVEeKfPsvLyN-NZg _3DOXLSwVEeKfPsvLyN-NZg _3DOXLCwVEeKfPsvLyN-NZg _3DOXMCwVEeKfPsvLyN-NZg _3DOXMiwVEeKfPsvLyN-NZg _3DOXMywVEeKfPsvLyN-NZg _3DOXNywVEeKfPsvLyN-NZg _3DOXNCwVEeKfPsvLyN-NZg _3DOXUywVEeKfPsvLyN-NZg _3DOXNSwVEeKfPsvLyN-NZg _3DOXKCwVEeKfPsvLyN-NZg _3DOXXywVEeKfPsvLyN-NZg _3DOXZCwVEeKfPsvLyN-NZg _b7s6gCz_EeKpcNdGO_5EZA"/>
-              <lifeline xmi:id="_3DOXGywVEeKfPsvLyN-NZg" name="Lifeline1" represents="_3DOXoiwVEeKfPsvLyN-NZg" coveredBy="_3DOXIiwVEeKfPsvLyN-NZg _3DOXKSwVEeKfPsvLyN-NZg _3DOXJCwVEeKfPsvLyN-NZg _3DOXJiwVEeKfPsvLyN-NZg _3DOXNiwVEeKfPsvLyN-NZg _3DOXOCwVEeKfPsvLyN-NZg _3DOXOywVEeKfPsvLyN-NZg _3DOXOSwVEeKfPsvLyN-NZg _3DOXOiwVEeKfPsvLyN-NZg _3DOXQywVEeKfPsvLyN-NZg _3DOXRCwVEeKfPsvLyN-NZg _3DOXRSwVEeKfPsvLyN-NZg _3DOXRiwVEeKfPsvLyN-NZg _3DOXSiwVEeKfPsvLyN-NZg _3DOXRywVEeKfPsvLyN-NZg _3DOXSCwVEeKfPsvLyN-NZg _3DOXVSwVEeKfPsvLyN-NZg _3DOXViwVEeKfPsvLyN-NZg _3DOXVywVEeKfPsvLyN-NZg _3DOXWSwVEeKfPsvLyN-NZg _3DOXWCwVEeKfPsvLyN-NZg _3DOXWiwVEeKfPsvLyN-NZg _3DOXXCwVEeKfPsvLyN-NZg _3DOXYCwVEeKfPsvLyN-NZg _3DOXYiwVEeKfPsvLyN-NZg _3DOXYSwVEeKfPsvLyN-NZg _3DOXYywVEeKfPsvLyN-NZg _aeGbcCz8EeKpcNdGO_5EZA _b72rgCz_EeKpcNdGO_5EZA _eD0dkCz_EeKpcNdGO_5EZA"/>
+              <lifeline xmi:id="_3DOXGiwVEeKfPsvLyN-NZg" name="Lifeline0" represents="_3DOXuiwVEeKfPsvLyN-NZg" coveredBy="_3DOXJywVEeKfPsvLyN-NZg _3DOXKiwVEeKfPsvLyN-NZg _3DOXLSwVEeKfPsvLyN-NZg _3DOXLCwVEeKfPsvLyN-NZg _3DOXMCwVEeKfPsvLyN-NZg _3DOXMiwVEeKfPsvLyN-NZg _3DOXMywVEeKfPsvLyN-NZg _3DOXNywVEeKfPsvLyN-NZg _3DOXNCwVEeKfPsvLyN-NZg _3DOXUywVEeKfPsvLyN-NZg _3DOXNSwVEeKfPsvLyN-NZg _3DOXKCwVEeKfPsvLyN-NZg _3DOXXywVEeKfPsvLyN-NZg _3DOXZCwVEeKfPsvLyN-NZg _b7s6gCz_EeKpcNdGO_5EZA _gDTPwC0EEeKpcNdGO_5EZA"/>
+              <lifeline xmi:id="_3DOXGywVEeKfPsvLyN-NZg" name="Lifeline1" represents="_3DOXoiwVEeKfPsvLyN-NZg" coveredBy="_3DOXIiwVEeKfPsvLyN-NZg _3DOXKSwVEeKfPsvLyN-NZg _3DOXJCwVEeKfPsvLyN-NZg _3DOXJiwVEeKfPsvLyN-NZg _3DOXNiwVEeKfPsvLyN-NZg _3DOXOCwVEeKfPsvLyN-NZg _3DOXOywVEeKfPsvLyN-NZg _3DOXOSwVEeKfPsvLyN-NZg _3DOXOiwVEeKfPsvLyN-NZg _3DOXQywVEeKfPsvLyN-NZg _3DOXRCwVEeKfPsvLyN-NZg _3DOXRSwVEeKfPsvLyN-NZg _3DOXRiwVEeKfPsvLyN-NZg _3DOXSiwVEeKfPsvLyN-NZg _3DOXRywVEeKfPsvLyN-NZg _3DOXSCwVEeKfPsvLyN-NZg _3DOXVSwVEeKfPsvLyN-NZg _3DOXViwVEeKfPsvLyN-NZg _3DOXVywVEeKfPsvLyN-NZg _3DOXWSwVEeKfPsvLyN-NZg _3DOXWCwVEeKfPsvLyN-NZg _3DOXWiwVEeKfPsvLyN-NZg _3DOXXCwVEeKfPsvLyN-NZg _3DOXYCwVEeKfPsvLyN-NZg _3DOXYiwVEeKfPsvLyN-NZg _3DOXYSwVEeKfPsvLyN-NZg _3DOXYywVEeKfPsvLyN-NZg _aeGbcCz8EeKpcNdGO_5EZA _b72rgCz_EeKpcNdGO_5EZA _eD0dkCz_EeKpcNdGO_5EZA _gDJewC0EEeKpcNdGO_5EZA"/>
               <lifeline xmi:id="_3DOXHCwVEeKfPsvLyN-NZg" name="Lifeline2" coveredBy="_3DOXPCwVEeKfPsvLyN-NZg _3DOXPSwVEeKfPsvLyN-NZg _3DOXPywVEeKfPsvLyN-NZg _3DOXQiwVEeKfPsvLyN-NZg _3DOXQCwVEeKfPsvLyN-NZg _3DOXQSwVEeKfPsvLyN-NZg"/>
               <lifeline xmi:id="_3DOXHSwVEeKfPsvLyN-NZg" name="Lifeline3" represents="_3DOXnCwVEeKfPsvLyN-NZg" coveredBy="_3DOXSSwVEeKfPsvLyN-NZg _3DOXSywVEeKfPsvLyN-NZg _3DOXTiwVEeKfPsvLyN-NZg _3DOXTCwVEeKfPsvLyN-NZg _3DOXTSwVEeKfPsvLyN-NZg _3DOXXSwVEeKfPsvLyN-NZg _eEAq0Cz_EeKpcNdGO_5EZA"/>
               <lifeline xmi:id="_3DOXHiwVEeKfPsvLyN-NZg" name="Lifeline4" represents="_3DOXqCwVEeKfPsvLyN-NZg" coveredBy="_3DOXTywVEeKfPsvLyN-NZg _3DOXUCwVEeKfPsvLyN-NZg _3DOXUiwVEeKfPsvLyN-NZg _3DOXUSwVEeKfPsvLyN-NZg"/>
@@ -3697,6 +3781,8 @@
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_b72rgCz_EeKpcNdGO_5EZA" name="getRecordedSound_MessageRecv" covered="_3DOXGywVEeKfPsvLyN-NZg" event="_b7xzACz_EeKpcNdGO_5EZA" message="_b7cb0Cz_EeKpcNdGO_5EZA"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eD0dkCz_EeKpcNdGO_5EZA" name="sendDataSignalToTE_MessageSend" covered="_3DOXGywVEeKfPsvLyN-NZg" event="_eDtv4Cz_EeKpcNdGO_5EZA" message="_eDl0ECz_EeKpcNdGO_5EZA"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eEAq0Cz_EeKpcNdGO_5EZA" name="sendDataSignalToTE_MessageRecv" covered="_3DOXHSwVEeKfPsvLyN-NZg" event="_eD7yUCz_EeKpcNdGO_5EZA" message="_eDl0ECz_EeKpcNdGO_5EZA"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gDJewC0EEeKpcNdGO_5EZA" name="//recordSound_Message2Send" covered="_3DOXGywVEeKfPsvLyN-NZg" event="_gDDYIC0EEeKpcNdGO_5EZA" message="_gC61QC0EEeKpcNdGO_5EZA"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gDTPwC0EEeKpcNdGO_5EZA" name="//recordSound_Message2Recv" covered="_3DOXGiwVEeKfPsvLyN-NZg" event="_gDOXQC0EEeKpcNdGO_5EZA" message="_gC61QC0EEeKpcNdGO_5EZA"/>
               <message xmi:id="_3DOXaiwVEeKfPsvLyN-NZg" name="//recordSound_Message" receiveEvent="_3DOXJywVEeKfPsvLyN-NZg" sendEvent="_3DOXJiwVEeKfPsvLyN-NZg"/>
               <message xmi:id="_3DOXaywVEeKfPsvLyN-NZg" name="//getSound_Message" receiveEvent="_3DOXNiwVEeKfPsvLyN-NZg" sendEvent="_3DOXNSwVEeKfPsvLyN-NZg"/>
               <message xmi:id="_3DOXbCwVEeKfPsvLyN-NZg" name="//receiveDataSignal_Message" receiveEvent="_3DOXSSwVEeKfPsvLyN-NZg" sendEvent="_3DOXSCwVEeKfPsvLyN-NZg"/>
@@ -3711,6 +3797,7 @@
               <message xmi:id="_eIMHkCz8EeKpcNdGO_5EZA" name="//create_Message3" messageSort="createMessage" receiveEvent="_eIhewCz8EeKpcNdGO_5EZA" sendEvent="_eIaKACz8EeKpcNdGO_5EZA"/>
               <message xmi:id="_b7cb0Cz_EeKpcNdGO_5EZA" name="getRecordedSound_Message" receiveEvent="_b72rgCz_EeKpcNdGO_5EZA" sendEvent="_b7s6gCz_EeKpcNdGO_5EZA"/>
               <message xmi:id="_eDl0ECz_EeKpcNdGO_5EZA" name="sendDataSignalToTE_Message" receiveEvent="_eEAq0Cz_EeKpcNdGO_5EZA" sendEvent="_eD0dkCz_EeKpcNdGO_5EZA"/>
+              <message xmi:id="_gC61QC0EEeKpcNdGO_5EZA" name="//recordSound_Message2" receiveEvent="_gDTPwC0EEeKpcNdGO_5EZA" sendEvent="_gDJewC0EEeKpcNdGO_5EZA"/>
             </ownedBehavior>
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_3DOXdCwVEeKfPsvLyN-NZg" name="DEHandsetDownSubflow">
               <lifeline xmi:id="_3DOXdSwVEeKfPsvLyN-NZg" name="Lifeline" represents="_3DOXtCwVEeKfPsvLyN-NZg" coveredBy="_3DOXfCwVEeKfPsvLyN-NZg _3DOXgSwVEeKfPsvLyN-NZg _3DOXfSwVEeKfPsvLyN-NZg _3DOXfywVEeKfPsvLyN-NZg"/>
@@ -4298,12 +4385,12 @@
           <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_JQbHICz_EeKpcNdGO_5EZA" name="ReceiveOperationEvent99" operation="_0UB2ciziEeKpcNdGO_5EZA"/>
           <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_OnZy4Cz_EeKpcNdGO_5EZA" name="SendOperationEvent101" operation="_KzGqlCzuEeKpcNdGO_5EZA"/>
           <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_Onjj4Cz_EeKpcNdGO_5EZA" name="ReceiveOperationEvent100" operation="_KzGqlCzuEeKpcNdGO_5EZA"/>
-          <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_REJiICz_EeKpcNdGO_5EZA" name="SendOperationEvent102" operation="_0UBPYSziEeKpcNdGO_5EZA"/>
-          <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_REUhQCz_EeKpcNdGO_5EZA" name="ReceiveOperationEvent101" operation="_0UBPYSziEeKpcNdGO_5EZA"/>
+          <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_REJiICz_EeKpcNdGO_5EZA" name="SendOperationEvent102"/>
+          <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_REUhQCz_EeKpcNdGO_5EZA" name="ReceiveOperationEvent101"/>
           <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_Xi01wCz_EeKpcNdGO_5EZA" name="SendOperationEvent103" operation="_0UAoUCziEeKpcNdGO_5EZA"/>
           <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_Xi_N0Cz_EeKpcNdGO_5EZA" name="ReceiveOperationEvent102" operation="_0UAoUCziEeKpcNdGO_5EZA"/>
-          <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_b7oCACz_EeKpcNdGO_5EZA" name="SendOperationEvent104" operation="_0UBPYiziEeKpcNdGO_5EZA"/>
-          <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_b7xzACz_EeKpcNdGO_5EZA" name="ReceiveOperationEvent103" operation="_0UBPYiziEeKpcNdGO_5EZA"/>
+          <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_b7oCACz_EeKpcNdGO_5EZA" name="SendOperationEvent104"/>
+          <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_b7xzACz_EeKpcNdGO_5EZA" name="ReceiveOperationEvent103"/>
           <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_eDtv4Cz_EeKpcNdGO_5EZA" name="SendOperationEvent105" operation="_KzHRoCzuEeKpcNdGO_5EZA"/>
           <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_eD7yUCz_EeKpcNdGO_5EZA" name="ReceiveOperationEvent104" operation="_KzHRoCzuEeKpcNdGO_5EZA"/>
           <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_jPhtcCz_EeKpcNdGO_5EZA" name="SendOperationEvent106" operation="_KzHRoSzuEeKpcNdGO_5EZA"/>
@@ -4316,6 +4403,8 @@
           <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_uU1N8Cz_EeKpcNdGO_5EZA" name="ReceiveOperationEvent108" operation="_0UB2cSziEeKpcNdGO_5EZA"/>
           <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_JoLjAC0DEeKpcNdGO_5EZA" name="SendOperationEvent110" operation="_KzGqlCzuEeKpcNdGO_5EZA"/>
           <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_JoVUAC0DEeKpcNdGO_5EZA" name="ReceiveOperationEvent109" operation="_KzGqlCzuEeKpcNdGO_5EZA"/>
+          <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_gDDYIC0EEeKpcNdGO_5EZA" name="SendOperationEvent111" operation="_3DPltiwVEeKfPsvLyN-NZg"/>
+          <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_gDOXQC0EEeKpcNdGO_5EZA" name="ReceiveOperationEvent110" operation="_3DPltiwVEeKfPsvLyN-NZg"/>
         </packagedElement>
       </packagedElement>
     </packagedElement>
