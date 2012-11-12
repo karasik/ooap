@@ -102,9 +102,6 @@
         <children>
           <emfPageIdentifier href="MyModel.notation#_3feN4CwVEeKfPsvLyN-NZg"/>
         </children>
-        <children>
-          <emfPageIdentifier href="MyModel.notation#_3fifUCwVEeKfPsvLyN-NZg"/>
-        </children>
       </children>
     </windows>
   </sashModel>

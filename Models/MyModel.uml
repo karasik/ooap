@@ -2638,33 +2638,31 @@
           <packagedElement xmi:type="uml:Package" xmi:id="_txSiMCziEeKpcNdGO_5EZA" name="Interfaces">
             <packageImport xmi:id="_b1GXgCzkEeKpcNdGO_5EZA" importedPackage="_qScQACzSEeKchaPxbKttGQ"/>
             <packagedElement xmi:type="uml:Interface" xmi:id="_w09ukCziEeKpcNdGO_5EZA" name="ITelephone">
-              <ownedOperation xmi:id="_0UAoUCziEeKpcNdGO_5EZA" name="busySignalToUser"/>
-              <ownedOperation xmi:id="_0UAoUSziEeKpcNdGO_5EZA" name="toneSignalToUser"/>
-              <ownedOperation xmi:id="_0UBPYCziEeKpcNdGO_5EZA" name="//dataSignalToSound" visibility="private"/>
-              <ownedOperation xmi:id="_0UBPYSziEeKpcNdGO_5EZA" name="//dataSignalToUser"/>
-              <ownedOperation xmi:id="_0UBPYiziEeKpcNdGO_5EZA" name="//getSound"/>
-              <ownedOperation xmi:id="_0UBPYyziEeKpcNdGO_5EZA" name="//saveNumber" visibility="private"/>
-              <ownedOperation xmi:id="_0UBPZCziEeKpcNdGO_5EZA" name="//sendNumberSign"/>
-              <ownedOperation xmi:id="_0UB2cCziEeKpcNdGO_5EZA" name="//sendDigit"/>
-              <ownedOperation xmi:id="_0UB2cSziEeKpcNdGO_5EZA" name="//handsetDown"/>
-              <ownedOperation xmi:id="_0UB2ciziEeKpcNdGO_5EZA" name="//handsetUp"/>
-              <ownedOperation xmi:id="_0UB2cyziEeKpcNdGO_5EZA" name="//soundToDataSignal" visibility="private"/>
-              <ownedOperation xmi:id="_0UB2dCziEeKpcNdGO_5EZA" name="//cancelSignalToUser"/>
-              <ownedOperation xmi:id="_0UB2dSziEeKpcNdGO_5EZA" name="//hasLastNumber" visibility="private"/>
-              <ownedOperation xmi:id="_0UCdgCziEeKpcNdGO_5EZA" name="//callSignalToUser"/>
+              <ownedOperation xmi:id="_0UAoUCziEeKpcNdGO_5EZA" name="sendBusySignalToUser"/>
+              <ownedOperation xmi:id="_0UAoUSziEeKpcNdGO_5EZA" name="sendToneSignalToUser"/>
+              <ownedOperation xmi:id="_0UBPYSziEeKpcNdGO_5EZA" name="sendDataSignalToUser"/>
+              <ownedOperation xmi:id="_0UB2dCziEeKpcNdGO_5EZA" name="sendCancelSignalToUser"/>
+              <ownedOperation xmi:id="_0UCdgCziEeKpcNdGO_5EZA" name="sendCallSignalToUser"/>
+              <ownedOperation xmi:id="_0UBPZCziEeKpcNdGO_5EZA" name="sendNumberSignToTE"/>
+              <ownedOperation xmi:id="_0UB2cCziEeKpcNdGO_5EZA" name="sendDigitToTE"/>
+              <ownedOperation xmi:id="_0UBPYiziEeKpcNdGO_5EZA" name="getRecordedSound"/>
+              <ownedOperation xmi:id="_0UB2cSziEeKpcNdGO_5EZA" name="handsetDown"/>
+              <ownedOperation xmi:id="_0UB2ciziEeKpcNdGO_5EZA" name="handsetUp"/>
+              <ownedOperation xmi:id="_0UB2dSziEeKpcNdGO_5EZA" name="hasSavedLastNumber" visibility="private"/>
+              <ownedOperation xmi:id="_0UBPYyziEeKpcNdGO_5EZA" name="saveLastNumber" visibility="private"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Interface" xmi:id="_aOfFYCzsEeKpcNdGO_5EZA" name="ILink">
-              <ownedOperation xmi:id="_KzGDgCzuEeKpcNdGO_5EZA" name="//busySignalToTE"/>
-              <ownedOperation xmi:id="_KzGDgSzuEeKpcNdGO_5EZA" name="//cancelSignalToUser"/>
-              <ownedOperation xmi:id="_KzGqkCzuEeKpcNdGO_5EZA" name="//dataSignalToUser"/>
-              <ownedOperation xmi:id="_KzGqkSzuEeKpcNdGO_5EZA" name="//toneSignalToUser"/>
-              <ownedOperation xmi:id="_KzGqkizuEeKpcNdGO_5EZA" name="//handsetSignalToTE"/>
-              <ownedOperation xmi:id="_KzGqkyzuEeKpcNdGO_5EZA" name="//callSignalToUser"/>
-              <ownedOperation xmi:id="_KzGqlCzuEeKpcNdGO_5EZA" name="//requestDataSignal"/>
-              <ownedOperation xmi:id="_KzHRoCzuEeKpcNdGO_5EZA" name="//dataSignalToTE"/>
-              <ownedOperation xmi:id="_KzHRoSzuEeKpcNdGO_5EZA" name="//endSignalToTE"/>
-              <ownedOperation xmi:id="_KzHRoizuEeKpcNdGO_5EZA" name="//digitSignalToTE"/>
-              <ownedOperation xmi:id="_KzHRoyzuEeKpcNdGO_5EZA" name="//busySignalToUser"/>
+              <ownedOperation xmi:id="_KzGqlCzuEeKpcNdGO_5EZA" name="requestDataSignalFromTE"/>
+              <ownedOperation xmi:id="_KzGDgCzuEeKpcNdGO_5EZA" name="sendBusySignalToTE"/>
+              <ownedOperation xmi:id="_KzGqkizuEeKpcNdGO_5EZA" name="sendHandsetSignalToTE"/>
+              <ownedOperation xmi:id="_KzHRoCzuEeKpcNdGO_5EZA" name="sendDataSignalToTE"/>
+              <ownedOperation xmi:id="_KzHRoSzuEeKpcNdGO_5EZA" name="sendEndSignalToTE"/>
+              <ownedOperation xmi:id="_KzHRoizuEeKpcNdGO_5EZA" name="sendDigitSignalToTE"/>
+              <ownedOperation xmi:id="_KzGDgSzuEeKpcNdGO_5EZA" name="sendCancelSignalToUser"/>
+              <ownedOperation xmi:id="_KzGqkCzuEeKpcNdGO_5EZA" name="sendDataSignalToUser"/>
+              <ownedOperation xmi:id="_KzGqkSzuEeKpcNdGO_5EZA" name="sendToneSignalToUser"/>
+              <ownedOperation xmi:id="_KzGqkyzuEeKpcNdGO_5EZA" name="sendCallSignalToUser"/>
+              <ownedOperation xmi:id="_KzHRoyzuEeKpcNdGO_5EZA" name="sendBusySignalToUser"/>
             </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_gT6XECziEeKpcNdGO_5EZA" name="Telephone">
