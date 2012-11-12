@@ -2589,22 +2589,6 @@
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPlpSwVEeKfPsvLyN-NZg" name="Sound">
               <ownedAttribute xmi:id="_3DPlpiwVEeKfPsvLyN-NZg" name="data" visibility="private"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Class" xmi:id="_3DPlkSwVEeKfPsvLyN-NZg" name="DataSignal">
-              <ownedAttribute xmi:id="_3DPlkiwVEeKfPsvLyN-NZg" name="data" visibility="private"/>
-            </packagedElement>
-            <packagedElement xmi:type="uml:Class" xmi:id="_3DPlhSwVEeKfPsvLyN-NZg" name="Link">
-              <ownedOperation xmi:id="_3DPlhiwVEeKfPsvLyN-NZg" name="//handsetSignalToTE"/>
-              <ownedOperation xmi:id="_3DPlhywVEeKfPsvLyN-NZg" name="//toneSignalToUser"/>
-              <ownedOperation xmi:id="_3DPliCwVEeKfPsvLyN-NZg" name="//callSignalToUser"/>
-              <ownedOperation xmi:id="_3DPliSwVEeKfPsvLyN-NZg" name="//busySignalToUser"/>
-              <ownedOperation xmi:id="_3DPliiwVEeKfPsvLyN-NZg" name="//digitSignalToTE"/>
-              <ownedOperation xmi:id="_3DPliywVEeKfPsvLyN-NZg" name="//dataSignalToTE"/>
-              <ownedOperation xmi:id="_3DPljCwVEeKfPsvLyN-NZg" name="//requestDataSignal"/>
-              <ownedOperation xmi:id="_3DPljSwVEeKfPsvLyN-NZg" name="//dataSignalToUser"/>
-              <ownedOperation xmi:id="_3DPljiwVEeKfPsvLyN-NZg" name="//endSignalToTE"/>
-              <ownedOperation xmi:id="_3DPljywVEeKfPsvLyN-NZg" name="//busySignalToTE"/>
-              <ownedOperation xmi:id="_3DPlkCwVEeKfPsvLyN-NZg" name="//cancelSignalToUser"/>
-            </packagedElement>
             <packagedElement xmi:type="uml:Association" xmi:id="_3DPlxSwVEeKfPsvLyN-NZg" name="telephone_tE_1" memberEnd="_3DPlxiwVEeKfPsvLyN-NZg _3DPlySwVEeKfPsvLyN-NZg">
               <ownedEnd xmi:id="_3DPlxiwVEeKfPsvLyN-NZg" name="telephone" type="_3DPllCwVEeKfPsvLyN-NZg" association="_3DPlxSwVEeKfPsvLyN-NZg">
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3DPlxywVEeKfPsvLyN-NZg" value="1"/>
@@ -2644,6 +2628,9 @@
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3DQL8CwVEeKfPsvLyN-NZg" value="*"/>
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DQL8SwVEeKfPsvLyN-NZg"/>
               </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_3DPlkSwVEeKfPsvLyN-NZg" name="DataSignal">
+              <ownedAttribute xmi:id="_3DPlkiwVEeKfPsvLyN-NZg" name="data" visibility="private"/>
             </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_gT6XECziEeKpcNdGO_5EZA" name="Telephone">
@@ -2685,6 +2672,22 @@
               <ownedOperation xmi:id="_0UB2dCziEeKpcNdGO_5EZA" name="//cancelSignalToUser"/>
               <ownedOperation xmi:id="_0UB2dSziEeKpcNdGO_5EZA" name="//hasLastNumber" visibility="private"/>
               <ownedOperation xmi:id="_0UCdgCziEeKpcNdGO_5EZA" name="//callSignalToUser"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_aOfFYCzsEeKpcNdGO_5EZA" name="ILink"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_XO688CzsEeKpcNdGO_5EZA" name="Link">
+            <packagedElement xmi:type="uml:Class" xmi:id="_3DPlhSwVEeKfPsvLyN-NZg" name="Link">
+              <ownedOperation xmi:id="_3DPlhiwVEeKfPsvLyN-NZg" name="//handsetSignalToTE"/>
+              <ownedOperation xmi:id="_3DPlhywVEeKfPsvLyN-NZg" name="//toneSignalToUser"/>
+              <ownedOperation xmi:id="_3DPliCwVEeKfPsvLyN-NZg" name="//callSignalToUser"/>
+              <ownedOperation xmi:id="_3DPliSwVEeKfPsvLyN-NZg" name="//busySignalToUser"/>
+              <ownedOperation xmi:id="_3DPliiwVEeKfPsvLyN-NZg" name="//digitSignalToTE"/>
+              <ownedOperation xmi:id="_3DPliywVEeKfPsvLyN-NZg" name="//dataSignalToTE"/>
+              <ownedOperation xmi:id="_3DPljCwVEeKfPsvLyN-NZg" name="//requestDataSignal"/>
+              <ownedOperation xmi:id="_3DPljSwVEeKfPsvLyN-NZg" name="//dataSignalToUser"/>
+              <ownedOperation xmi:id="_3DPljiwVEeKfPsvLyN-NZg" name="//endSignalToTE"/>
+              <ownedOperation xmi:id="_3DPljywVEeKfPsvLyN-NZg" name="//busySignalToTE"/>
+              <ownedOperation xmi:id="_3DPlkCwVEeKfPsvLyN-NZg" name="//cancelSignalToUser"/>
             </packagedElement>
           </packagedElement>
         </packagedElement>
@@ -4259,7 +4262,6 @@
   <_4prak:usecaserealization xmi:id="_4wa4YCwVEeKfPsvLyN-NZg" base_Collaboration="_3DNwDywVEeKfPsvLyN-NZg"/>
   <_4prak:usecaserealization xmi:id="_4wa4YSwVEeKfPsvLyN-NZg" base_Collaboration="_3DNwjywVEeKfPsvLyN-NZg"/>
   <_4prak:usecaserealization xmi:id="_4wa4YiwVEeKfPsvLyN-NZg" base_Collaboration="_3DOXzywVEeKfPsvLyN-NZg"/>
-  <_4prak:boundary xmi:id="_4wa4YywVEeKfPsvLyN-NZg" base_Class="_3DPlhSwVEeKfPsvLyN-NZg"/>
   <_4prak:entity xmi:id="_4wa4ZCwVEeKfPsvLyN-NZg" base_Class="_3DPlkSwVEeKfPsvLyN-NZg"/>
   <_4prak:entity xmi:id="_4wa4ZiwVEeKfPsvLyN-NZg" base_Class="_3DPlpSwVEeKfPsvLyN-NZg"/>
   <_4prak:boundary xmi:id="_4wa4ZywVEeKfPsvLyN-NZg" base_Class="_3DPlpywVEeKfPsvLyN-NZg"/>
@@ -4274,4 +4276,5 @@
   <_4prak:subsystem xmi:id="_r6jDACziEeKpcNdGO_5EZA" base_Package="_gT6XECziEeKpcNdGO_5EZA"/>
   <_4prak:subsystemproxy xmi:id="_C6Tt4CzkEeKpcNdGO_5EZA" base_Class="_3DPllCwVEeKfPsvLyN-NZg"/>
   <_4prak:subsystem xmi:id="_VDlncCzkEeKpcNdGO_5EZA" base_Package="_vdtMUCwUEeKfPsvLyN-NZg"/>
+  <_4prak:subsystemproxy xmi:id="_eend0CzsEeKpcNdGO_5EZA" base_Class="_3DPlhSwVEeKfPsvLyN-NZg"/>
 </xmi:XMI>

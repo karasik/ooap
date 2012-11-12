@@ -73,16 +73,7 @@
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="MyModel.notation#_lSTS0CwVEeKfPsvLyN-NZg"/>
-        </children>
-        <children>
           <emfPageIdentifier href="MyModel.notation#_3e3w8CwVEeKfPsvLyN-NZg"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="MyModel.notation#_Kyt0kCzkEeKpcNdGO_5EZA"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="MyModel.notation#_jknygCzlEeKpcNdGO_5EZA"/>
         </children>
       </children>
     </windows>
