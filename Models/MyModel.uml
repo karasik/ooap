@@ -2650,10 +2650,10 @@
               <ownedOperation xmi:id="_0UCdgCziEeKpcNdGO_5EZA" name="sendCallSignalToUser">
                 <ownedParameter xmi:id="_L8w_UC0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
-              <ownedOperation xmi:id="_0UBPZCziEeKpcNdGO_5EZA" name="sendNumberSignToTE">
+              <ownedOperation xmi:id="_0UBPZCziEeKpcNdGO_5EZA" name="receiveNumberSign">
                 <ownedParameter xmi:id="_OC1T8C0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
-              <ownedOperation xmi:id="_0UB2cCziEeKpcNdGO_5EZA" name="sendDigitToTE">
+              <ownedOperation xmi:id="_0UB2cCziEeKpcNdGO_5EZA" name="receiveDigit">
                 <ownedParameter xmi:id="_SS1wkC0EEeKpcNdGO_5EZA" name="dig" type="_YvRQLywVEeKfPsvLyN-NZg"/>
                 <ownedParameter xmi:id="_TrNRsC0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
@@ -2690,18 +2690,6 @@
               </ownedOperation>
               <ownedOperation xmi:id="_KzHRoizuEeKpcNdGO_5EZA" name="sendDigitSignalToTE">
                 <ownedParameter xmi:id="_nMhxsC0DEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
-              </ownedOperation>
-              <ownedOperation xmi:id="_KzGDgSzuEeKpcNdGO_5EZA" name="sendCancelSignalToUser">
-                <ownedParameter xmi:id="_s8SJ0C0DEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
-              </ownedOperation>
-              <ownedOperation xmi:id="_KzGqkSzuEeKpcNdGO_5EZA" name="sendToneSignalToUser">
-                <ownedParameter xmi:id="_ulaq0C0DEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
-              </ownedOperation>
-              <ownedOperation xmi:id="_KzGqkyzuEeKpcNdGO_5EZA" name="sendCallSignalToUser">
-                <ownedParameter xmi:id="_wMum4C0DEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
-              </ownedOperation>
-              <ownedOperation xmi:id="_KzHRoyzuEeKpcNdGO_5EZA" name="sendBusySignalToUser">
-                <ownedParameter xmi:id="_xl3kEC0DEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
             </packagedElement>
           </packagedElement>
