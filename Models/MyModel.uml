@@ -4133,7 +4133,106 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_RwmhgAJXEeKRZfVljgdVdw" name="Component View"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_T8w3EAJXEeKRZfVljgdVdw" name="Deployment View"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_T8w3EAJXEeKRZfVljgdVdw" name="Deployment View">
+      <packagedElement xmi:type="uml:Device" xmi:id="_uWhO0CzlEeKpcNdGO_5EZA" name="TE"/>
+      <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_wtr6gCzlEeKpcNdGO_5EZA" name="Link">
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_9oinYCzlEeKpcNdGO_5EZA" name="LinkApplication" fileName="Artifact1.file"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_2CqbICzlEeKpcNdGO_5EZA" name="Link" memberEnd="_2CqbISzlEeKpcNdGO_5EZA _2CqbJCzlEeKpcNdGO_5EZA">
+        <ownedEnd xmi:id="_2CqbISzlEeKpcNdGO_5EZA" name="tE" type="_uWhO0CzlEeKpcNdGO_5EZA" association="_2CqbICzlEeKpcNdGO_5EZA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2CqbIizlEeKpcNdGO_5EZA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2CqbIyzlEeKpcNdGO_5EZA" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_2CqbJCzlEeKpcNdGO_5EZA" name="link" type="_wtr6gCzlEeKpcNdGO_5EZA" association="_2CqbICzlEeKpcNdGO_5EZA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2CqbJSzlEeKpcNdGO_5EZA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2CqbJizlEeKpcNdGO_5EZA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_5mXLYCzlEeKpcNdGO_5EZA" name="Telephone">
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_IgHN4CzmEeKpcNdGO_5EZA" name="MakeCallSystem" fileName="Artifact1.file"/>
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_OjUGcCzmEeKpcNdGO_5EZA" name="DataExchangeSystem" fileName="Artifact1.file"/>
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_Sv3mcCzmEeKpcNdGO_5EZA" name="ReceiveCallSystem" fileName="Artifact1.file"/>
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_TGXa4CzmEeKpcNdGO_5EZA" name="CancelCallSystem" fileName="Artifact2.file"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_GrDJsCzmEeKpcNdGO_5EZA" name="CommunicationPath1" memberEnd="_GrDJsSzmEeKpcNdGO_5EZA _GrDJtCzmEeKpcNdGO_5EZA">
+        <ownedEnd xmi:id="_GrDJsSzmEeKpcNdGO_5EZA" name="link" type="_wtr6gCzlEeKpcNdGO_5EZA" association="_GrDJsCzmEeKpcNdGO_5EZA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GrDJsizmEeKpcNdGO_5EZA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GrDJsyzmEeKpcNdGO_5EZA" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_GrDJtCzmEeKpcNdGO_5EZA" name="telephone" type="_5mXLYCzlEeKpcNdGO_5EZA" association="_GrDJsCzmEeKpcNdGO_5EZA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GrDJtSzmEeKpcNdGO_5EZA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GrDJtizmEeKpcNdGO_5EZA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Device" xmi:id="_j0PGYCzmEeKpcNdGO_5EZA" name="Screen"/>
+      <packagedElement xmi:type="uml:Device" xmi:id="_kPQOcCzmEeKpcNdGO_5EZA" name="Ring"/>
+      <packagedElement xmi:type="uml:Device" xmi:id="_kfMH4CzmEeKpcNdGO_5EZA" name="Keyboard"/>
+      <packagedElement xmi:type="uml:Device" xmi:id="_oFmN4CzmEeKpcNdGO_5EZA" name="Handset"/>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_qf00oCzmEeKpcNdGO_5EZA" name="CommunicationPath2" memberEnd="_qf00oSzmEeKpcNdGO_5EZA _qf00pCzmEeKpcNdGO_5EZA">
+        <ownedEnd xmi:id="_qf00oSzmEeKpcNdGO_5EZA" name="screen" type="_j0PGYCzmEeKpcNdGO_5EZA" association="_qf00oCzmEeKpcNdGO_5EZA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qf00oizmEeKpcNdGO_5EZA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qf00oyzmEeKpcNdGO_5EZA" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_qf00pCzmEeKpcNdGO_5EZA" name="telephone" type="_5mXLYCzlEeKpcNdGO_5EZA" association="_qf00oCzmEeKpcNdGO_5EZA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qf00pSzmEeKpcNdGO_5EZA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qf00pizmEeKpcNdGO_5EZA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_rUZFICzmEeKpcNdGO_5EZA" name="CommunicationPath3" memberEnd="_rUZFISzmEeKpcNdGO_5EZA _rUZFJCzmEeKpcNdGO_5EZA">
+        <ownedEnd xmi:id="_rUZFISzmEeKpcNdGO_5EZA" name="ring" type="_kPQOcCzmEeKpcNdGO_5EZA" association="_rUZFICzmEeKpcNdGO_5EZA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rUZFIizmEeKpcNdGO_5EZA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rUZFIyzmEeKpcNdGO_5EZA" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_rUZFJCzmEeKpcNdGO_5EZA" name="telephone" type="_5mXLYCzlEeKpcNdGO_5EZA" association="_rUZFICzmEeKpcNdGO_5EZA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rUZFJSzmEeKpcNdGO_5EZA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rUZFJizmEeKpcNdGO_5EZA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_rum78CzmEeKpcNdGO_5EZA" name="CommunicationPath4" memberEnd="_rum78SzmEeKpcNdGO_5EZA _rum79CzmEeKpcNdGO_5EZA">
+        <ownedEnd xmi:id="_rum78SzmEeKpcNdGO_5EZA" name="keyboard" type="_kfMH4CzmEeKpcNdGO_5EZA" association="_rum78CzmEeKpcNdGO_5EZA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rum78izmEeKpcNdGO_5EZA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rum78yzmEeKpcNdGO_5EZA" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_rum79CzmEeKpcNdGO_5EZA" name="telephone" type="_5mXLYCzlEeKpcNdGO_5EZA" association="_rum78CzmEeKpcNdGO_5EZA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rum79SzmEeKpcNdGO_5EZA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rum79izmEeKpcNdGO_5EZA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_scbrQCzmEeKpcNdGO_5EZA" name="CommunicationPath5" memberEnd="_scbrQSzmEeKpcNdGO_5EZA _scbrRCzmEeKpcNdGO_5EZA">
+        <ownedEnd xmi:id="_scbrQSzmEeKpcNdGO_5EZA" name="handset" type="_oFmN4CzmEeKpcNdGO_5EZA" association="_scbrQCzmEeKpcNdGO_5EZA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_scbrQizmEeKpcNdGO_5EZA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_scbrQyzmEeKpcNdGO_5EZA" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_scbrRCzmEeKpcNdGO_5EZA" name="telephone" type="_5mXLYCzlEeKpcNdGO_5EZA" association="_scbrQCzmEeKpcNdGO_5EZA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_scbrRSzmEeKpcNdGO_5EZA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_scbrRizmEeKpcNdGO_5EZA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_srok4CzmEeKpcNdGO_5EZA" name="Artifact1" fileName="Artifact1.file"/>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_s6mN8CzmEeKpcNdGO_5EZA" name="Artifact2" fileName="Artifact2.file"/>
+      <packagedElement xmi:type="uml:Device" xmi:id="_v0cv8CzmEeKpcNdGO_5EZA" name="Speaker"/>
+      <packagedElement xmi:type="uml:Device" xmi:id="_wEA18CzmEeKpcNdGO_5EZA" name="Microphone"/>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_32EdACzmEeKpcNdGO_5EZA" name="CommunicationPath6" memberEnd="_32EdASzmEeKpcNdGO_5EZA _32EdBCzmEeKpcNdGO_5EZA">
+        <ownedEnd xmi:id="_32EdASzmEeKpcNdGO_5EZA" name="device2" type="_wEA18CzmEeKpcNdGO_5EZA" association="_32EdACzmEeKpcNdGO_5EZA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_32EdAizmEeKpcNdGO_5EZA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_32EdAyzmEeKpcNdGO_5EZA" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_32EdBCzmEeKpcNdGO_5EZA" name="handset" type="_oFmN4CzmEeKpcNdGO_5EZA" association="_32EdACzmEeKpcNdGO_5EZA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_32EdBSzmEeKpcNdGO_5EZA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_32EdBizmEeKpcNdGO_5EZA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_4PaxICzmEeKpcNdGO_5EZA" name="CommunicationPath7" memberEnd="_4PaxISzmEeKpcNdGO_5EZA _4PaxJCzmEeKpcNdGO_5EZA">
+        <ownedEnd xmi:id="_4PaxISzmEeKpcNdGO_5EZA" name="device1" type="_v0cv8CzmEeKpcNdGO_5EZA" association="_4PaxICzmEeKpcNdGO_5EZA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4PaxIizmEeKpcNdGO_5EZA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4PaxIyzmEeKpcNdGO_5EZA" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_4PaxJCzmEeKpcNdGO_5EZA" name="handset" type="_oFmN4CzmEeKpcNdGO_5EZA" association="_4PaxICzmEeKpcNdGO_5EZA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4PaxJSzmEeKpcNdGO_5EZA" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4PaxJizmEeKpcNdGO_5EZA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
     <profileApplication xmi:id="_dsS3cAJXEeKRZfVljgdVdw">
       <eAnnotations xmi:id="_dsXv8AJXEeKRZfVljgdVdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="4prak.profile.uml#_VPLU0eonEeGUcs5WXJGZqw"/>
