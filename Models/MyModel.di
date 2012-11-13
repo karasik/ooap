@@ -105,15 +105,28 @@
       <emfPageIdentifier href="MyModel.notation#_pMlAEC0SEeKpcNdGO_5EZA"/>
     </availablePage>
     <availablePage/>
+    <availablePage>
+      <emfPageIdentifier href="MyModel.notation#_yEzZ0C1mEeKE8bWQtL_X9A"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MyModel.notation#_eKytAC1nEeKE8bWQtL_X9A"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MyModel.notation#_HZsW8C1rEeKE8bWQtL_X9A"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MyModel.notation#_d83B4C1rEeKE8bWQtL_X9A"/>
+    </availablePage>
+    <availablePage/>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="MyModel.notation#_L8i74C0PEeKpcNdGO_5EZA"/>
+          <emfPageIdentifier href="MyModel.notation#_eKytAC1nEeKE8bWQtL_X9A"/>
         </children>
         <children>
-          <emfPageIdentifier href="MyModel.notation#_pMlAEC0SEeKpcNdGO_5EZA"/>
+          <emfPageIdentifier href="MyModel.notation#_d83B4C1rEeKE8bWQtL_X9A"/>
         </children>
       </children>
     </windows>
