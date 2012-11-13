@@ -2479,30 +2479,56 @@
           <packageImport xmi:id="_wRLbMCwVEeKfPsvLyN-NZg" importedPackage="_hIQ7UCwVEeKfPsvLyN-NZg"/>
           <packagedElement xmi:type="uml:Package" xmi:id="_m0HH8CzSEeKchaPxbKttGQ" name="TelephoneSystem">
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPlrSwVEeKfPsvLyN-NZg" name="Ring">
-              <ownedOperation xmi:id="_3DPlriwVEeKfPsvLyN-NZg" name="//ring"/>
-              <ownedOperation xmi:id="_3DPlrywVEeKfPsvLyN-NZg" name="//stopRinging"/>
+              <ownedOperation xmi:id="_3DPlriwVEeKfPsvLyN-NZg" name="startRinging">
+                <ownedParameter xmi:id="_JQDCgC2VEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_3DPlrywVEeKfPsvLyN-NZg" name="stopRinging">
+                <ownedParameter xmi:id="_K-ndIC2VEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPlsCwVEeKfPsvLyN-NZg" name="Speaker">
-              <ownedOperation xmi:id="_3DPlsSwVEeKfPsvLyN-NZg" name="//toneTone"/>
-              <ownedOperation xmi:id="_3DPlsiwVEeKfPsvLyN-NZg" name="//waitingTone"/>
-              <ownedOperation xmi:id="_3DPlsywVEeKfPsvLyN-NZg" name="//busyTone"/>
-              <ownedOperation xmi:id="_3DPltCwVEeKfPsvLyN-NZg" name="//playSound"/>
+              <ownedOperation xmi:id="_3DPlsSwVEeKfPsvLyN-NZg" name="playReadyTone">
+                <ownedParameter xmi:id="__ocZoC2VEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_3DPlsiwVEeKfPsvLyN-NZg" name="playWaitingTone">
+                <ownedParameter xmi:id="_BHl4MC2WEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_3DPlsywVEeKfPsvLyN-NZg" name="playBusyTone">
+                <ownedParameter xmi:id="_Cp6mkC2WEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_3DPltCwVEeKfPsvLyN-NZg" name="playSound">
+                <ownedParameter xmi:id="_Gj_2gC2WEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+                <ownedParameter xmi:id="_JkoV8C2WEeKnPIN3REb_Mw" name="so" type="_3DPlpSwVEeKfPsvLyN-NZg"/>
+              </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPlpywVEeKfPsvLyN-NZg" name="Keyboard">
-              <ownedOperation xmi:id="_3DPlqCwVEeKfPsvLyN-NZg" name="//pressButton"/>
+              <ownedOperation xmi:id="_3DPlqCwVEeKfPsvLyN-NZg" name="pressButton">
+                <ownedParameter xmi:id="_ObfXMC2WEeKnPIN3REb_Mw" name="but" type="_YvRQKywVEeKfPsvLyN-NZg"/>
+                <ownedParameter xmi:id="_QSk0oC2WEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPltSwVEeKfPsvLyN-NZg" name="Microphone">
-              <ownedOperation xmi:id="_3DPltiwVEeKfPsvLyN-NZg" name="//recordSound"/>
+              <ownedOperation xmi:id="_3DPltiwVEeKfPsvLyN-NZg" name="recordSound">
+                <ownedParameter xmi:id="_b4g9AC2WEeKnPIN3REb_Mw" name="" type="_3DPlpSwVEeKfPsvLyN-NZg" direction="return"/>
+                <ownedParameter xmi:id="_f-i-QC2WEeKnPIN3REb_Mw" name="duration" type="_YvRQMywVEeKfPsvLyN-NZg"/>
+              </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPmBSwVEeKfPsvLyN-NZg" name="Handset">
-              <ownedAttribute xmi:id="_3DPmBiwVEeKfPsvLyN-NZg" name="state" visibility="private"/>
-              <ownedOperation xmi:id="_3DPmBywVEeKfPsvLyN-NZg" name="//handsetUp"/>
-              <ownedOperation xmi:id="_3DPmCCwVEeKfPsvLyN-NZg" name="//handsetDown"/>
+              <ownedOperation xmi:id="_3DPmBywVEeKfPsvLyN-NZg" name="handsetUp">
+                <ownedParameter xmi:id="_JsYHQC2XEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_3DPmCCwVEeKfPsvLyN-NZg" name="handsetDown">
+                <ownedParameter xmi:id="_LrVuUC2XEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPlqSwVEeKfPsvLyN-NZg" name="Screen">
-              <ownedAttribute xmi:id="_3DPlqiwVEeKfPsvLyN-NZg" name="data" visibility="private"/>
-              <ownedOperation xmi:id="_3DPlqywVEeKfPsvLyN-NZg" name="//displayDigit"/>
-              <ownedOperation xmi:id="_3DPlrCwVEeKfPsvLyN-NZg" name="//clear"/>
+              <ownedOperation xmi:id="_3DPlqywVEeKfPsvLyN-NZg" name="displayDigit">
+                <ownedParameter xmi:id="_n9kN0C2XEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+                <ownedParameter xmi:id="_pUI_MC2XEeKnPIN3REb_Mw" name="dig" type="_YvRQLywVEeKfPsvLyN-NZg"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_3DPlrCwVEeKfPsvLyN-NZg" name="clear">
+                <ownedParameter xmi:id="_r4w4EC2XEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Signal" xmi:id="_3DPmECwVEeKfPsvLyN-NZg" name="//create"/>
             <packagedElement xmi:type="uml:Association" xmi:id="_3DPl0ywVEeKfPsvLyN-NZg" name="screen_telephone_1" memberEnd="_3DPl1CwVEeKfPsvLyN-NZg _3DPl1ywVEeKfPsvLyN-NZg">
@@ -2593,11 +2619,15 @@
           <packagedElement xmi:type="uml:Package" xmi:id="_qScQACzSEeKchaPxbKttGQ" name="CommunicationArtifacts">
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPlpSwVEeKfPsvLyN-NZg" name="Sound">
               <ownedAttribute xmi:id="_3DPlpiwVEeKfPsvLyN-NZg" name="data" visibility="private"/>
-              <ownedOperation xmi:id="_kmqcUCz7EeKpcNdGO_5EZA" name="toDataSignal"/>
+              <ownedOperation xmi:id="_kmqcUCz7EeKpcNdGO_5EZA" name="toDataSignal">
+                <ownedParameter xmi:id="_1HxMAC2cEeKnPIN3REb_Mw" type="_3DPlkSwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPlkSwVEeKfPsvLyN-NZg" name="DataSignal">
               <ownedAttribute xmi:id="_3DPlkiwVEeKfPsvLyN-NZg" name="data" visibility="private"/>
-              <ownedOperation xmi:id="_mv6n0Cz7EeKpcNdGO_5EZA" name="toSound"/>
+              <ownedOperation xmi:id="_mv6n0Cz7EeKpcNdGO_5EZA" name="toSound">
+                <ownedParameter xmi:id="_2zIhoC2cEeKnPIN3REb_Mw" type="_3DPlpSwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Association" xmi:id="_3DPlxSwVEeKfPsvLyN-NZg" name="telephone_tE_1" memberEnd="_3DPlxiwVEeKfPsvLyN-NZg _3DPlySwVEeKfPsvLyN-NZg">
               <ownedEnd xmi:id="_3DPlxiwVEeKfPsvLyN-NZg" name="telephone" type="_3DPllCwVEeKfPsvLyN-NZg" association="_3DPlxSwVEeKfPsvLyN-NZg">

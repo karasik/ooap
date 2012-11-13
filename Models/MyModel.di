@@ -138,7 +138,7 @@
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="MyModel.notation#_5OtlUC1yEeKE8bWQtL_X9A"/>
+          <emfPageIdentifier href="MyModel.notation#_1GWo0C1yEeKE8bWQtL_X9A"/>
         </children>
       </children>
     </windows>
