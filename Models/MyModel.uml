@@ -2731,7 +2731,7 @@
           <packagedElement xmi:type="uml:Package" xmi:id="_gT6XECziEeKpcNdGO_5EZA" name="Telephone">
             <packageImport xmi:id="_abhVcCzkEeKpcNdGO_5EZA" importedPackage="_txSiMCziEeKpcNdGO_5EZA"/>
             <packageImport xmi:id="_a0tRgCzkEeKpcNdGO_5EZA" importedPackage="_qScQACzSEeKchaPxbKttGQ"/>
-            <packagedElement xmi:type="uml:Class" xmi:id="_3DPllCwVEeKfPsvLyN-NZg" name="Telephone" clientDependency="_muZNwC0PEeKpcNdGO_5EZA _1g4fwC0REeKpcNdGO_5EZA _2c2YwC0REeKpcNdGO_5EZA">
+            <packagedElement xmi:type="uml:Class" xmi:id="_3DPllCwVEeKfPsvLyN-NZg" name="Telephone" clientDependency="_muZNwC0PEeKpcNdGO_5EZA _1g4fwC0REeKpcNdGO_5EZA _2c2YwC0REeKpcNdGO_5EZA _EfbksC9tEeKBsa_vJ4FI5Q _R5NpQC9tEeKBsa_vJ4FI5Q">
               <ownedAttribute xmi:id="_zOlicC0QEeKpcNdGO_5EZA" name="st" visibility="private" type="_IQIJ8C0OEeKpcNdGO_5EZA">
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zOwhkC0QEeKpcNdGO_5EZA" value="1"/>
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zOrpEC0QEeKpcNdGO_5EZA" value="1"/>
@@ -3438,11 +3438,13 @@
             <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_oCuEUC17EeKE8bWQtL_X9A" name="ReceiveOperationEvent39" operation="_3DPlrywVEeKfPsvLyN-NZg"/>
             <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_oH5fQC17EeKE8bWQtL_X9A" name="ExecutionEvent95"/>
             <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_oH8ikC17EeKE8bWQtL_X9A" name="ExecutionEvent96"/>
+            <packagedElement xmi:type="uml:Realization" xmi:id="_EfbksC9tEeKBsa_vJ4FI5Q" name="Realization2" supplier="_w09ukCziEeKpcNdGO_5EZA" client="_3DPllCwVEeKfPsvLyN-NZg"/>
+            <packagedElement xmi:type="uml:Realization" xmi:id="_R5NpQC9tEeKBsa_vJ4FI5Q" name="Realization3" supplier="_w09ukCziEeKpcNdGO_5EZA" client="_3DPllCwVEeKfPsvLyN-NZg"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_XO688CzsEeKpcNdGO_5EZA" name="Link">
             <packageImport xmi:id="_kYo1IC0AEeKpcNdGO_5EZA" importedPackage="_txSiMCziEeKpcNdGO_5EZA"/>
             <packageImport xmi:id="_lGyUkC0AEeKpcNdGO_5EZA" importedPackage="_qScQACzSEeKchaPxbKttGQ"/>
-            <packagedElement xmi:type="uml:Class" xmi:id="_3DPlhSwVEeKfPsvLyN-NZg" name="Link" clientDependency="_WJpPwC0UEeKpcNdGO_5EZA">
+            <packagedElement xmi:type="uml:Class" xmi:id="_3DPlhSwVEeKfPsvLyN-NZg" name="Link" clientDependency="_WJpPwC0UEeKpcNdGO_5EZA _8vAVUC9sEeKBsa_vJ4FI5Q _TGWx0C9tEeKBsa_vJ4FI5Q">
               <ownedOperation xmi:id="_9NFpYC0EEeKpcNdGO_5EZA" name="sendDigitSignalToTE">
                 <ownedParameter xmi:id="_9NFpYS0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
                 <ownedParameter xmi:id="_yOeWYC1qEeKE8bWQtL_X9A" name="dig" type="_YvRQLywVEeKfPsvLyN-NZg" isUnique="false"/>
@@ -3465,6 +3467,8 @@
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Realization" xmi:id="_WJpPwC0UEeKpcNdGO_5EZA" name="Realization1" supplier="_aOfFYCzsEeKpcNdGO_5EZA" client="_3DPlhSwVEeKfPsvLyN-NZg"/>
+            <packagedElement xmi:type="uml:Realization" xmi:id="_8vAVUC9sEeKBsa_vJ4FI5Q" name="Realization2" supplier="_aOfFYCzsEeKpcNdGO_5EZA" client="_3DPlhSwVEeKfPsvLyN-NZg"/>
+            <packagedElement xmi:type="uml:Realization" xmi:id="_TGWx0C9tEeKBsa_vJ4FI5Q" name="Realization3" supplier="_aOfFYCzsEeKpcNdGO_5EZA" client="_3DPlhSwVEeKfPsvLyN-NZg"/>
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_3DMhkSwVEeKfPsvLyN-NZg" name="UseCase Realizations">
