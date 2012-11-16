@@ -151,10 +151,7 @@
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="MyModel.notation#_1GWo0C1yEeKE8bWQtL_X9A"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="MyModel.notation#_Zv6PYC_TEeKtXeILLXmqWA"/>
+          <emfPageIdentifier href="MyModel.notation#_lSTS0CwVEeKfPsvLyN-NZg"/>
         </children>
       </children>
     </windows>

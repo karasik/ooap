@@ -2503,7 +2503,7 @@
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPlpywVEeKfPsvLyN-NZg" name="Keyboard">
               <ownedOperation xmi:id="_3DPlqCwVEeKfPsvLyN-NZg" name="pressButton">
-                <ownedParameter xmi:id="_ObfXMC2WEeKnPIN3REb_Mw" name="but" type="_YvRQKywVEeKfPsvLyN-NZg"/>
+                <ownedParameter xmi:id="_ObfXMC2WEeKnPIN3REb_Mw" name="but" type="_YvRQKywVEeKfPsvLyN-NZg" isUnique="false"/>
                 <ownedParameter xmi:id="_QSk0oC2WEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
             </packagedElement>
@@ -2514,6 +2514,10 @@
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPmBSwVEeKfPsvLyN-NZg" name="Handset">
+              <ownedAttribute xmi:id="_fPcdYC_XEeKtXeILLXmqWA" name="isUp" visibility="private" type="_YvRQLiwVEeKfPsvLyN-NZg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fPncgC_XEeKtXeILLXmqWA" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fPh88C_XEeKtXeILLXmqWA" value="1"/>
+              </ownedAttribute>
               <ownedOperation xmi:id="_3DPmBywVEeKfPsvLyN-NZg" name="handsetUp">
                 <ownedParameter xmi:id="_JsYHQC2XEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
@@ -2528,7 +2532,7 @@
               </ownedAttribute>
               <ownedOperation xmi:id="_3DPlqywVEeKfPsvLyN-NZg" name="displayDigit">
                 <ownedParameter xmi:id="_n9kN0C2XEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
-                <ownedParameter xmi:id="_pUI_MC2XEeKnPIN3REb_Mw" name="dig" type="_YvRQLywVEeKfPsvLyN-NZg"/>
+                <ownedParameter xmi:id="_pUI_MC2XEeKnPIN3REb_Mw" name="dig" type="_YvRQLywVEeKfPsvLyN-NZg" isUnique="false"/>
               </ownedOperation>
               <ownedOperation xmi:id="_3DPlrCwVEeKfPsvLyN-NZg" name="clear">
                 <ownedParameter xmi:id="_r4w4EC2XEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
@@ -2676,7 +2680,7 @@
             <packagedElement xmi:type="uml:CallEvent" xmi:id="_hu6Q0C_UEeKtXeILLXmqWA" name=""/>
             <packagedElement xmi:type="uml:CallEvent" xmi:id="_qegeMC_UEeKtXeILLXmqWA" name="inDigit"/>
             <packagedElement xmi:type="uml:CallEvent" xmi:id="_BjfcwC_VEeKtXeILLXmqWA" name="in#"/>
-            <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_V3fsAC_WEeKtXeILLXmqWA" name="when(^st.getCurrentNumberLength==3)"/>
+            <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_V3fsAC_WEeKtXeILLXmqWA" name="when(^st.getCurrentNumberLength()==3)"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_txSiMCziEeKpcNdGO_5EZA" name="Interfaces">
             <packageImport xmi:id="_b1GXgCzkEeKpcNdGO_5EZA" importedPackage="_qScQACzSEeKchaPxbKttGQ"/>
@@ -3593,7 +3597,7 @@
           <packagedElement xmi:type="uml:Package" xmi:id="_XO688CzsEeKpcNdGO_5EZA" name="Link">
             <packageImport xmi:id="_kYo1IC0AEeKpcNdGO_5EZA" importedPackage="_txSiMCziEeKpcNdGO_5EZA"/>
             <packageImport xmi:id="_lGyUkC0AEeKpcNdGO_5EZA" importedPackage="_qScQACzSEeKchaPxbKttGQ"/>
-            <packagedElement xmi:type="uml:Class" xmi:id="_3DPlhSwVEeKfPsvLyN-NZg" name="Link" clientDependency="_WJpPwC0UEeKpcNdGO_5EZA _8vAVUC9sEeKBsa_vJ4FI5Q _TGWx0C9tEeKBsa_vJ4FI5Q">
+            <packagedElement xmi:type="uml:Class" xmi:id="_3DPlhSwVEeKfPsvLyN-NZg" name="Link" clientDependency="_WJpPwC0UEeKpcNdGO_5EZA _8vAVUC9sEeKBsa_vJ4FI5Q _TGWx0C9tEeKBsa_vJ4FI5Q _Vh-AkC_ZEeKtXeILLXmqWA">
               <ownedOperation xmi:id="_9NFpYC0EEeKpcNdGO_5EZA" name="sendDigitSignalToTE">
                 <ownedParameter xmi:id="_9NFpYS0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
                 <ownedParameter xmi:id="_yOeWYC1qEeKE8bWQtL_X9A" name="dig" type="_YvRQLywVEeKfPsvLyN-NZg" isUnique="false"/>
@@ -3618,6 +3622,7 @@
             <packagedElement xmi:type="uml:Realization" xmi:id="_WJpPwC0UEeKpcNdGO_5EZA" name="Realization1" supplier="_aOfFYCzsEeKpcNdGO_5EZA" client="_3DPlhSwVEeKfPsvLyN-NZg"/>
             <packagedElement xmi:type="uml:Realization" xmi:id="_8vAVUC9sEeKBsa_vJ4FI5Q" name="Realization2" supplier="_aOfFYCzsEeKpcNdGO_5EZA" client="_3DPlhSwVEeKfPsvLyN-NZg"/>
             <packagedElement xmi:type="uml:Realization" xmi:id="_TGWx0C9tEeKBsa_vJ4FI5Q" name="Realization3" supplier="_aOfFYCzsEeKpcNdGO_5EZA" client="_3DPlhSwVEeKfPsvLyN-NZg"/>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_Vh-AkC_ZEeKtXeILLXmqWA" name="Dependency1" supplier="_3DPlkSwVEeKfPsvLyN-NZg" client="_3DPlhSwVEeKfPsvLyN-NZg"/>
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_3DMhkSwVEeKfPsvLyN-NZg" name="UseCase Realizations">
