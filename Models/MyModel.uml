@@ -2522,6 +2522,10 @@
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPlqSwVEeKfPsvLyN-NZg" name="Screen">
+              <ownedAttribute xmi:id="_U0C1gC_XEeKtXeILLXmqWA" name="data" visibility="private" type="_YvRQKywVEeKfPsvLyN-NZg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_U0Q38C_XEeKtXeILLXmqWA" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_U0L_cC_XEeKtXeILLXmqWA" value="1"/>
+              </ownedAttribute>
               <ownedOperation xmi:id="_3DPlqywVEeKfPsvLyN-NZg" name="displayDigit">
                 <ownedParameter xmi:id="_n9kN0C2XEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
                 <ownedParameter xmi:id="_pUI_MC2XEeKnPIN3REb_Mw" name="dig" type="_YvRQLywVEeKfPsvLyN-NZg"/>
@@ -2618,13 +2622,13 @@
           <packageImport xmi:id="_w6wjsCwVEeKfPsvLyN-NZg" importedPackage="_YvQpACwVEeKfPsvLyN-NZg"/>
           <packagedElement xmi:type="uml:Package" xmi:id="_qScQACzSEeKchaPxbKttGQ" name="CommunicationArtifacts">
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPlpSwVEeKfPsvLyN-NZg" name="Sound">
-              <ownedAttribute xmi:id="_3DPlpiwVEeKfPsvLyN-NZg" name="data" visibility="private"/>
+              <ownedAttribute xmi:id="_3DPlpiwVEeKfPsvLyN-NZg" name="data" visibility="private" type="_YvRQLSwVEeKfPsvLyN-NZg"/>
               <ownedOperation xmi:id="_kmqcUCz7EeKpcNdGO_5EZA" name="toDataSignal">
                 <ownedParameter xmi:id="_1HxMAC2cEeKnPIN3REb_Mw" type="_3DPlkSwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPlkSwVEeKfPsvLyN-NZg" name="DataSignal">
-              <ownedAttribute xmi:id="_3DPlkiwVEeKfPsvLyN-NZg" name="data" visibility="private"/>
+              <ownedAttribute xmi:id="_3DPlkiwVEeKfPsvLyN-NZg" name="data" visibility="private" type="_YvRQLSwVEeKfPsvLyN-NZg"/>
               <ownedOperation xmi:id="_mv6n0Cz7EeKpcNdGO_5EZA" name="toSound">
                 <ownedParameter xmi:id="_2zIhoC2cEeKnPIN3REb_Mw" type="_3DPlpSwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
