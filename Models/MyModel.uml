@@ -2478,6 +2478,7 @@
         <packagedElement xmi:type="uml:Package" xmi:id="_fipBUCwVEeKfPsvLyN-NZg" name="Application">
           <packageImport xmi:id="_wRLbMCwVEeKfPsvLyN-NZg" importedPackage="_hIQ7UCwVEeKfPsvLyN-NZg"/>
           <packagedElement xmi:type="uml:Package" xmi:id="_m0HH8CzSEeKchaPxbKttGQ" name="TelephoneSystem">
+            <packageImport xmi:id="_mpZlIC_lEeKtXeILLXmqWA" importedPackage="_qScQACzSEeKchaPxbKttGQ"/>
             <packagedElement xmi:type="uml:Class" xmi:id="_3DPlrSwVEeKfPsvLyN-NZg" name="Ring">
               <ownedOperation xmi:id="_3DPlriwVEeKfPsvLyN-NZg" name="startRinging">
                 <ownedParameter xmi:id="_JQDCgC2VEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
@@ -2625,20 +2626,20 @@
         <packagedElement xmi:type="uml:Package" xmi:id="_hIQ7UCwVEeKfPsvLyN-NZg" name="BusinessServices">
           <packageImport xmi:id="_w6wjsCwVEeKfPsvLyN-NZg" importedPackage="_YvQpACwVEeKfPsvLyN-NZg"/>
           <packagedElement xmi:type="uml:Package" xmi:id="_qScQACzSEeKchaPxbKttGQ" name="CommunicationArtifacts">
-            <packagedElement xmi:type="uml:Class" xmi:id="_3DPlpSwVEeKfPsvLyN-NZg" name="Sound">
+            <packagedElement xmi:type="uml:Class" xmi:id="_3DPlpSwVEeKfPsvLyN-NZg" name="Sound" clientDependency="_--20cC_iEeKtXeILLXmqWA">
               <ownedAttribute xmi:id="_3DPlpiwVEeKfPsvLyN-NZg" name="data" visibility="private" type="_YvRQLSwVEeKfPsvLyN-NZg"/>
               <ownedOperation xmi:id="_kmqcUCz7EeKpcNdGO_5EZA" name="toDataSignal">
                 <ownedParameter xmi:id="_1HxMAC2cEeKnPIN3REb_Mw" type="_3DPlkSwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
             </packagedElement>
-            <packagedElement xmi:type="uml:Class" xmi:id="_3DPlkSwVEeKfPsvLyN-NZg" name="DataSignal">
+            <packagedElement xmi:type="uml:Class" xmi:id="_3DPlkSwVEeKfPsvLyN-NZg" name="DataSignal" clientDependency="_AaDnIC_jEeKtXeILLXmqWA">
               <ownedAttribute xmi:id="_3DPlkiwVEeKfPsvLyN-NZg" name="data" visibility="private" type="_YvRQLSwVEeKfPsvLyN-NZg"/>
               <ownedOperation xmi:id="_mv6n0Cz7EeKpcNdGO_5EZA" name="toSound">
                 <ownedParameter xmi:id="_2zIhoC2cEeKnPIN3REb_Mw" type="_3DPlpSwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Association" xmi:id="_3DPlxSwVEeKfPsvLyN-NZg" name="telephone_tE_1" memberEnd="_3DPlxiwVEeKfPsvLyN-NZg _3DPlySwVEeKfPsvLyN-NZg">
-              <ownedEnd xmi:id="_3DPlxiwVEeKfPsvLyN-NZg" name="telephone" type="_3DPllCwVEeKfPsvLyN-NZg" association="_3DPlxSwVEeKfPsvLyN-NZg">
+              <ownedEnd xmi:id="_3DPlxiwVEeKfPsvLyN-NZg" name="telephone" type="_w09ukCziEeKpcNdGO_5EZA" association="_3DPlxSwVEeKfPsvLyN-NZg">
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3DPlxywVEeKfPsvLyN-NZg" value="1"/>
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DPlyCwVEeKfPsvLyN-NZg" value="1"/>
               </ownedEnd>
@@ -2677,10 +2678,17 @@
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DQL8SwVEeKfPsvLyN-NZg"/>
               </ownedEnd>
             </packagedElement>
-            <packagedElement xmi:type="uml:CallEvent" xmi:id="_hu6Q0C_UEeKtXeILLXmqWA" name=""/>
-            <packagedElement xmi:type="uml:CallEvent" xmi:id="_qegeMC_UEeKtXeILLXmqWA" name="inDigit"/>
-            <packagedElement xmi:type="uml:CallEvent" xmi:id="_BjfcwC_VEeKtXeILLXmqWA" name="in#"/>
+            <packagedElement xmi:type="uml:CallEvent" xmi:id="_qegeMC_UEeKtXeILLXmqWA" name="inDigit" operation="_7x6r6C0EEeKpcNdGO_5EZA"/>
+            <packagedElement xmi:type="uml:CallEvent" xmi:id="_BjfcwC_VEeKtXeILLXmqWA" name="in#" operation="_7x6E1S0EEeKpcNdGO_5EZA"/>
             <packagedElement xmi:type="uml:ChangeEvent" xmi:id="_V3fsAC_WEeKtXeILLXmqWA" name="when(^st.getCurrentNumberLength()==3)"/>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_--20cC_iEeKtXeILLXmqWA" name="Dependency1" supplier="_3DPlkSwVEeKfPsvLyN-NZg" client="_3DPlpSwVEeKfPsvLyN-NZg"/>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_AaDnIC_jEeKtXeILLXmqWA" name="Dependency2" supplier="_3DPlpSwVEeKfPsvLyN-NZg" client="_3DPlkSwVEeKfPsvLyN-NZg"/>
+            <packagedElement xmi:type="uml:CallEvent" xmi:id="_eQ83AC_mEeKtXeILLXmqWA" name="receiveCall" operation="_7x6r5i0EEeKpcNdGO_5EZA"/>
+            <packagedElement xmi:type="uml:CallEvent" xmi:id="_vPkUQC_mEeKtXeILLXmqWA" name="ignoreCall" operation="_7x6r4i0EEeKpcNdGO_5EZA"/>
+            <packagedElement xmi:type="uml:CallEvent" xmi:id="_q692EC_nEeKtXeILLXmqWA" name="handsetUp" operation="_7x7S8C0EEeKpcNdGO_5EZA"/>
+            <packagedElement xmi:type="uml:CallEvent" xmi:id="_XKzo0C_oEeKtXeILLXmqWA" name="handsetDown" operation="_7x6r4C0EEeKpcNdGO_5EZA"/>
+            <packagedElement xmi:type="uml:CallEvent" xmi:id="_jU3K4C_oEeKtXeILLXmqWA" name="receiveBusySignal" operation="_7x6E0C0EEeKpcNdGO_5EZA"/>
+            <packagedElement xmi:type="uml:CallEvent" xmi:id="_uIT0cC_qEeKtXeILLXmqWA" name="receiveDataSignal" operation="_9NGQdC0EEeKpcNdGO_5EZA"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_txSiMCziEeKpcNdGO_5EZA" name="Interfaces">
             <packageImport xmi:id="_b1GXgCzkEeKpcNdGO_5EZA" importedPackage="_qScQACzSEeKchaPxbKttGQ"/>
@@ -2717,7 +2725,7 @@
                 <ownedParameter xmi:id="_0MAqcC0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
             </packagedElement>
-            <packagedElement xmi:type="uml:Interface" xmi:id="_aOfFYCzsEeKpcNdGO_5EZA" name="ILink">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_aOfFYCzsEeKpcNdGO_5EZA" name="ILink" clientDependency="_-bYCAC_kEeKtXeILLXmqWA">
               <ownedOperation xmi:id="_KzGqlCzuEeKpcNdGO_5EZA" name="requestDataSignalFromTE">
                 <ownedParameter xmi:id="_yKDEoC0CEeKpcNdGO_5EZA" type="_3DPlkSwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
@@ -2739,6 +2747,7 @@
                 <ownedParameter xmi:id="_1D4dQC1qEeKE8bWQtL_X9A" name="dig" type="_YvRQLywVEeKfPsvLyN-NZg" isUnique="false"/>
               </ownedOperation>
             </packagedElement>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_-bYCAC_kEeKtXeILLXmqWA" name="Dependency1" supplier="_3DPlkSwVEeKfPsvLyN-NZg" client="_aOfFYCzsEeKpcNdGO_5EZA"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_gT6XECziEeKpcNdGO_5EZA" name="Telephone">
             <packageImport xmi:id="_abhVcCzkEeKpcNdGO_5EZA" importedPackage="_txSiMCziEeKpcNdGO_5EZA"/>
@@ -2751,10 +2760,38 @@
               <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_Y7dToC_TEeKtXeILLXmqWA" name="EnterNumber">
                 <region xmi:id="_Zv198C_TEeKtXeILLXmqWA" name="Region1">
                   <subvertex xmi:type="uml:State" xmi:id="_i9yUMC_TEeKtXeILLXmqWA" name="CommunicationEstablish"/>
-                  <subvertex xmi:type="uml:State" xmi:id="_lB458C_TEeKtXeILLXmqWA" name="DigitWaiting"/>
+                  <subvertex xmi:type="uml:State" xmi:id="_lB458C_TEeKtXeILLXmqWA" name="DigitWaiting">
+                    <exit xmi:type="uml:OpaqueBehavior" xmi:id="_L725kC_nEeKtXeILLXmqWA">
+                      <language>Natural language</language>
+                      <body>^st.setSavedLastNumber()</body>
+                    </exit>
+                  </subvertex>
                   <subvertex xmi:type="uml:Pseudostate" xmi:id="_no5_gC_TEeKtXeILLXmqWA" name="Initial0"/>
                   <subvertex xmi:type="uml:FinalState" xmi:id="_pP7nsC_TEeKtXeILLXmqWA" name="FinalState0"/>
-                  <transition xmi:id="_sNyf8C_TEeKtXeILLXmqWA" name="Transition0" source="_no5_gC_TEeKtXeILLXmqWA" target="_i9yUMC_TEeKtXeILLXmqWA"/>
+                  <subvertex xmi:type="uml:State" xmi:id="_QvePAC_mEeKtXeILLXmqWA" name="Ringing"/>
+                  <subvertex xmi:type="uml:State" xmi:id="_7rlJAC_mEeKtXeILLXmqWA" name="DataExchange">
+                    <doActivity xmi:type="uml:OpaqueBehavior" xmi:id="_V8iCYC_pEeKtXeILLXmqWA" name="">
+                      <language>Natural language</language>
+                      <body>{true} ^mic.startRecording();^so.toDataSignal();^ln.setDataSignalToTE(sigOut);^ln.requestDataSignalFromTE();^sigIn.toSound();sp.playSound(soundIn);</body>
+                    </doActivity>
+                  </subvertex>
+                  <subvertex xmi:type="uml:State" xmi:id="_hZECAC_nEeKtXeILLXmqWA" name="FinishState"/>
+                  <subvertex xmi:type="uml:State" xmi:id="_QE8HcC_qEeKtXeILLXmqWA" name="WaitForResponse">
+                    <entry xmi:type="uml:OpaqueBehavior" xmi:id="_ChqTMC_rEeKtXeILLXmqWA">
+                      <language>Natural language</language>
+                      <body>^ln.requestDataSignalFromTE()</body>
+                    </entry>
+                  </subvertex>
+                  <subvertex xmi:type="uml:State" xmi:id="_Pq_2EC_tEeKtXeILLXmqWA" name="Waiting"/>
+                  <subvertex xmi:type="uml:State" xmi:id="_XkJjoC_tEeKtXeILLXmqWA" name="End"/>
+                  <subvertex xmi:type="uml:Pseudostate" xmi:id="_dfyboC_tEeKtXeILLXmqWA" name="Junction0" kind="junction"/>
+                  <transition xmi:id="_sNyf8C_TEeKtXeILLXmqWA" name="Transition0" source="_Pq_2EC_tEeKtXeILLXmqWA" target="_i9yUMC_TEeKtXeILLXmqWA">
+                    <effect xmi:type="uml:OpaqueBehavior" xmi:id="_Rhl2MC_rEeKtXeILLXmqWA">
+                      <language>Natural language</language>
+                      <body>^st.setCurrentCommunicationState(COMMUNICATION_ESTABLISH)</body>
+                    </effect>
+                    <trigger xmi:id="_rGo6kC_nEeKtXeILLXmqWA" name="t8" event="_q692EC_nEeKtXeILLXmqWA"/>
+                  </transition>
                   <transition xmi:id="_s0su8C_TEeKtXeILLXmqWA" name="Transition1" source="_i9yUMC_TEeKtXeILLXmqWA" target="_lB458C_TEeKtXeILLXmqWA">
                     <effect xmi:type="uml:OpaqueBehavior" xmi:id="_4mXwwC_UEeKtXeILLXmqWA">
                       <language>Natural language</language>
@@ -2762,20 +2799,20 @@
                     </effect>
                     <trigger xmi:id="_rosZYC_UEeKtXeILLXmqWA" name="t2" event="_qegeMC_UEeKtXeILLXmqWA"/>
                   </transition>
-                  <transition xmi:id="_uqNfEC_TEeKtXeILLXmqWA" name="Transition2" source="_lB458C_TEeKtXeILLXmqWA" target="_pP7nsC_TEeKtXeILLXmqWA">
+                  <transition xmi:id="_uqNfEC_TEeKtXeILLXmqWA" name="Transition2" visibility="private" source="_lB458C_TEeKtXeILLXmqWA" target="_QE8HcC_qEeKtXeILLXmqWA">
                     <effect xmi:type="uml:OpaqueBehavior" xmi:id="_aCeesC_WEeKtXeILLXmqWA">
                       <language>Natural language</language>
-                      <body>^st.setSavedNumber()</body>
+                      <body>^st.setSavedNumber(); ^st.setCurrentCommunicationState(DATA_EXCHANGE);</body>
                     </effect>
-                    <trigger xmi:id="_WAM8EC_WEeKtXeILLXmqWA" name="t4" event="_V3fsAC_WEeKtXeILLXmqWA"/>
+                    <trigger xmi:id="_buj9UC_nEeKtXeILLXmqWA" name="t7" event="_eQ83AC_mEeKtXeILLXmqWA"/>
                   </transition>
-                  <transition xmi:id="_vrNpEC_TEeKtXeILLXmqWA" name="Transition3" source="_i9yUMC_TEeKtXeILLXmqWA" target="_pP7nsC_TEeKtXeILLXmqWA" guard="_fuQyQC_VEeKtXeILLXmqWA">
+                  <transition xmi:id="_vrNpEC_TEeKtXeILLXmqWA" name="Transition3" source="_i9yUMC_TEeKtXeILLXmqWA" target="_QE8HcC_qEeKtXeILLXmqWA" guard="_fuQyQC_VEeKtXeILLXmqWA">
                     <ownedRule xmi:id="_fuQyQC_VEeKtXeILLXmqWA">
                       <specification xmi:type="uml:LiteralString" xmi:id="_fuQyQS_VEeKtXeILLXmqWA" name="" value="^sc.hasSavedNumber()"/>
                     </ownedRule>
                     <effect xmi:type="uml:OpaqueBehavior" xmi:id="_QHWu0C_VEeKtXeILLXmqWA">
                       <language>Natural language</language>
-                      <body>*{i,1,3} ^ln.sendDigitSignalToTE(dig[i]); ^sc.displayDigit(dig[i]);</body>
+                      <body>*{i,1,3} ^ln.sendDigitSignalToTE(dig[i]); ^sc.displayDigit(dig[i]); ^st.setCurrentCommunicationState(WAIT_FOR_RESPONSE);</body>
                     </effect>
                     <trigger xmi:id="_B5lBgC_VEeKtXeILLXmqWA" name="t3" event="_BjfcwC_VEeKtXeILLXmqWA"/>
                   </transition>
@@ -2786,6 +2823,64 @@
                     </effect>
                     <trigger xmi:id="_6yLEgC_VEeKtXeILLXmqWA" name="t4" event="_qegeMC_UEeKtXeILLXmqWA"/>
                   </transition>
+                  <transition xmi:id="_Slv0IC_mEeKtXeILLXmqWA" name="" source="_Pq_2EC_tEeKtXeILLXmqWA" target="_QvePAC_mEeKtXeILLXmqWA">
+                    <effect xmi:type="uml:OpaqueBehavior" xmi:id="_pb6TkC_mEeKtXeILLXmqWA">
+                      <language>Natural language</language>
+                      <body>^st.setCurrentCommunicationState(RINGING); ^r.startRinging();</body>
+                    </effect>
+                    <trigger xmi:id="_e3xmcC_mEeKtXeILLXmqWA" name="t5" event="_eQ83AC_mEeKtXeILLXmqWA"/>
+                  </transition>
+                  <transition xmi:id="_q_eYEC_mEeKtXeILLXmqWA" name="Transition5" source="_QvePAC_mEeKtXeILLXmqWA" target="_XkJjoC_tEeKtXeILLXmqWA">
+                    <effect xmi:type="uml:OpaqueBehavior" xmi:id="_4T2_QC_mEeKtXeILLXmqWA" name="">
+                      <language>Natural language</language>
+                      <body>^st.setCurrentComminicationState(START_STATE); ^r.stopRinging(); ^st.clear(); ^sc.clear();</body>
+                    </effect>
+                    <trigger xmi:id="_wpbqMC_mEeKtXeILLXmqWA" name="t6" event="_vPkUQC_mEeKtXeILLXmqWA"/>
+                  </transition>
+                  <transition xmi:id="_vLRNoC_nEeKtXeILLXmqWA" name="Transition6" source="_QvePAC_mEeKtXeILLXmqWA" target="_7rlJAC_mEeKtXeILLXmqWA">
+                    <effect xmi:type="uml:OpaqueBehavior" xmi:id="_76lY4C_nEeKtXeILLXmqWA">
+                      <language>Natural language</language>
+                      <body>^ln.setHandsetSignalToTE(); ^st.setCurrentCommunicationState(DATA_EXCHANGE);</body>
+                    </effect>
+                    <trigger xmi:id="_zQpuoC_nEeKtXeILLXmqWA" name="t8" event="_q692EC_nEeKtXeILLXmqWA"/>
+                  </transition>
+                  <transition xmi:id="_RqrBEC_oEeKtXeILLXmqWA" name="Transition7" source="_7rlJAC_mEeKtXeILLXmqWA" target="_XkJjoC_tEeKtXeILLXmqWA">
+                    <effect xmi:type="uml:OpaqueBehavior" xmi:id="_db2JEC_oEeKtXeILLXmqWA">
+                      <language>Natural language</language>
+                      <body>^st.setCurrentCommunicationState(THE_END); ln.sendBusySignalToTE();</body>
+                    </effect>
+                    <trigger xmi:id="_XV2bMC_oEeKtXeILLXmqWA" name="t9" event="_XKzo0C_oEeKtXeILLXmqWA"/>
+                  </transition>
+                  <transition xmi:id="_SaIvIC_oEeKtXeILLXmqWA" name="Transition8" source="_7rlJAC_mEeKtXeILLXmqWA" target="_hZECAC_nEeKtXeILLXmqWA">
+                    <effect xmi:type="uml:OpaqueBehavior" xmi:id="_mQE-0C_oEeKtXeILLXmqWA">
+                      <language>Natural language</language>
+                      <body>^st.setCurrentCommunicationState(THE_END); ln.sendBusySignalToTE();</body>
+                    </effect>
+                    <trigger xmi:id="_jcrDEC_oEeKtXeILLXmqWA" name="t10" event="_jU3K4C_oEeKtXeILLXmqWA"/>
+                  </transition>
+                  <transition xmi:id="_oTWeIC_oEeKtXeILLXmqWA" name="Transition9" source="_hZECAC_nEeKtXeILLXmqWA" target="_XkJjoC_tEeKtXeILLXmqWA">
+                    <effect xmi:type="uml:OpaqueBehavior" xmi:id="_ARZLoC_pEeKtXeILLXmqWA">
+                      <language>Natural language</language>
+                      <body>^sc.clear(); ^st.clear(); ^st.setCurrentCommunicationState(START_STATE);</body>
+                    </effect>
+                    <trigger xmi:id="_z8Gp8C_oEeKtXeILLXmqWA" name="t11" event="_XKzo0C_oEeKtXeILLXmqWA"/>
+                  </transition>
+                  <transition xmi:id="_dYoyIC_qEeKtXeILLXmqWA" name="Transition10" source="_QE8HcC_qEeKtXeILLXmqWA" target="_7rlJAC_mEeKtXeILLXmqWA">
+                    <effect xmi:type="uml:OpaqueBehavior" xmi:id="_z-p8wC_qEeKtXeILLXmqWA">
+                      <language>Natural language</language>
+                      <body>^st.setCurrentCommunicationState(DATA_EXCHANGE);</body>
+                    </effect>
+                    <trigger xmi:id="_gbEoYC_qEeKtXeILLXmqWA" name="t12" event="_uIT0cC_qEeKtXeILLXmqWA"/>
+                  </transition>
+                  <transition xmi:id="_hbaZIC_sEeKtXeILLXmqWA" name="Transition11" source="_QE8HcC_qEeKtXeILLXmqWA" target="_XkJjoC_tEeKtXeILLXmqWA">
+                    <effect xmi:type="uml:OpaqueBehavior" xmi:id="_0C-KIC_sEeKtXeILLXmqWA">
+                      <language>Natural language</language>
+                      <body>^st.setCurrentCommunicationState(START_STATE); ^ln.setEndSignalToTE(); ^sc.clear(); ^st.clear();</body>
+                    </effect>
+                    <trigger xmi:id="_j5UmAC_sEeKtXeILLXmqWA" name="t13" event="_XKzo0C_oEeKtXeILLXmqWA"/>
+                  </transition>
+                  <transition xmi:id="_UdQrMC_tEeKtXeILLXmqWA" name="Transition12" source="_no5_gC_TEeKtXeILLXmqWA" target="_Pq_2EC_tEeKtXeILLXmqWA"/>
+                  <transition xmi:id="_asqzwC_tEeKtXeILLXmqWA" name="Transition13" source="_XkJjoC_tEeKtXeILLXmqWA" target="_Pq_2EC_tEeKtXeILLXmqWA"/>
                 </region>
               </ownedBehavior>
               <ownedOperation xmi:id="_7x6E0C0EEeKpcNdGO_5EZA" name="sendBusySignalToUser">
@@ -2864,6 +2959,9 @@
               </ownedOperation>
               <ownedOperation xmi:id="_f2r-YC14EeKE8bWQtL_X9A" name="clear">
                 <ownedParameter xmi:id="_3ttKwC_REeKtXeILLXmqWA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_3p0cYC_pEeKtXeILLXmqWA" name="getCurrentNumberLength">
+                <ownedParameter xmi:id="_9_3_gC_pEeKtXeILLXmqWA" name="" type="_YvRQLywVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Association" xmi:id="_GUREwC0PEeKpcNdGO_5EZA" name="telephone_state_1" memberEnd="_GUREwS0PEeKpcNdGO_5EZA _GUQdsC0PEeKpcNdGO_5EZA">
@@ -3562,8 +3660,8 @@
             <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_pK4GkC14EeKE8bWQtL_X9A" name="ReceiveOperationEvent34" operation="_KzHRoizuEeKpcNdGO_5EZA"/>
             <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_pQAeMC14EeKE8bWQtL_X9A" name="ExecutionEvent83"/>
             <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_pQEIkC14EeKE8bWQtL_X9A" name="ExecutionEvent84"/>
-            <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_1nvP4C14EeKE8bWQtL_X9A" name="SendOperationEvent35"/>
-            <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_1n7dIC14EeKE8bWQtL_X9A" name="ReceiveOperationEvent35"/>
+            <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_1nvP4C14EeKE8bWQtL_X9A" name="SendOperationEvent35" operation="_3p0cYC_pEeKtXeILLXmqWA"/>
+            <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_1n7dIC14EeKE8bWQtL_X9A" name="ReceiveOperationEvent35" operation="_3p0cYC_pEeKtXeILLXmqWA"/>
             <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_1tOM0C14EeKE8bWQtL_X9A" name="ExecutionEvent85"/>
             <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_1tRQIC14EeKE8bWQtL_X9A" name="ExecutionEvent86"/>
             <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_xiHzcC16EeKE8bWQtL_X9A" name="ExecutionEvent87"/>
