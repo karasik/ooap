@@ -2487,7 +2487,7 @@
                 <ownedParameter xmi:id="_K-ndIC2VEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
             </packagedElement>
-            <packagedElement xmi:type="uml:Class" xmi:id="_3DPlsCwVEeKfPsvLyN-NZg" name="Speaker">
+            <packagedElement xmi:type="uml:Class" xmi:id="_3DPlsCwVEeKfPsvLyN-NZg" name="Speaker" clientDependency="_ImmnADLyEeKrc-0EaLb1Ig">
               <ownedOperation xmi:id="_3DPlsSwVEeKfPsvLyN-NZg" name="playReadyTone">
                 <ownedParameter xmi:id="__ocZoC2VEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
@@ -2508,7 +2508,7 @@
                 <ownedParameter xmi:id="_QSk0oC2WEeKnPIN3REb_Mw" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
             </packagedElement>
-            <packagedElement xmi:type="uml:Class" xmi:id="_3DPltSwVEeKfPsvLyN-NZg" name="Microphone">
+            <packagedElement xmi:type="uml:Class" xmi:id="_3DPltSwVEeKfPsvLyN-NZg" name="Microphone" clientDependency="_JJAwgDLyEeKrc-0EaLb1Ig">
               <ownedOperation xmi:id="_3DPltiwVEeKfPsvLyN-NZg" name="recordSound">
                 <ownedParameter xmi:id="_b4g9AC2WEeKnPIN3REb_Mw" name="" type="_3DPlpSwVEeKfPsvLyN-NZg" direction="return"/>
                 <ownedParameter xmi:id="_f-i-QC2WEeKnPIN3REb_Mw" name="duration" type="_YvRQMywVEeKfPsvLyN-NZg"/>
@@ -2621,6 +2621,58 @@
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DPl_CwVEeKfPsvLyN-NZg" value="1"/>
               </ownedEnd>
             </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_UZQAkDLwEeKrc-0EaLb1Ig" name="screen_iTelephone_1" memberEnd="_UZQAkTLwEeKrc-0EaLb1Ig _UZPZgDLwEeKrc-0EaLb1Ig">
+              <ownedEnd xmi:id="_UZQAkTLwEeKrc-0EaLb1Ig" name="screen" type="_3DPlqSwVEeKfPsvLyN-NZg" aggregation="composite" association="_UZQAkDLwEeKrc-0EaLb1Ig">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UZQAkjLwEeKrc-0EaLb1Ig" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UZQAkzLwEeKrc-0EaLb1Ig" value="1"/>
+              </ownedEnd>
+              <ownedEnd xmi:id="_UZPZgDLwEeKrc-0EaLb1Ig" name="iTelephone" type="_w09ukCziEeKpcNdGO_5EZA" association="_UZQAkDLwEeKrc-0EaLb1Ig">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UZPZgTLwEeKrc-0EaLb1Ig" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UZPZgjLwEeKrc-0EaLb1Ig" value="1"/>
+              </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_U5OhIDLwEeKrc-0EaLb1Ig" name="handset_iTelephone_1" memberEnd="_U5OhITLwEeKrc-0EaLb1Ig _U5N6EDLwEeKrc-0EaLb1Ig">
+              <ownedEnd xmi:id="_U5OhITLwEeKrc-0EaLb1Ig" name="handset" type="_3DPmBSwVEeKfPsvLyN-NZg" aggregation="composite" association="_U5OhIDLwEeKrc-0EaLb1Ig">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_U5OhIjLwEeKrc-0EaLb1Ig" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_U5OhIzLwEeKrc-0EaLb1Ig" value="1"/>
+              </ownedEnd>
+              <ownedEnd xmi:id="_U5N6EDLwEeKrc-0EaLb1Ig" name="iTelephone" type="_w09ukCziEeKpcNdGO_5EZA" association="_U5OhIDLwEeKrc-0EaLb1Ig">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_U5N6ETLwEeKrc-0EaLb1Ig" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_U5N6EjLwEeKrc-0EaLb1Ig" value="1"/>
+              </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_jYfxoDLxEeKrc-0EaLb1Ig" name="keyboard_iTelephone_1" memberEnd="_jYfxoTLxEeKrc-0EaLb1Ig _jYfKkDLxEeKrc-0EaLb1Ig">
+              <ownedEnd xmi:id="_jYfxoTLxEeKrc-0EaLb1Ig" name="keyboard" type="_3DPlpywVEeKfPsvLyN-NZg" aggregation="composite" association="_jYfxoDLxEeKrc-0EaLb1Ig">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jYfxojLxEeKrc-0EaLb1Ig" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jYfxozLxEeKrc-0EaLb1Ig" value="1"/>
+              </ownedEnd>
+              <ownedEnd xmi:id="_jYfKkDLxEeKrc-0EaLb1Ig" name="iTelephone" type="_w09ukCziEeKpcNdGO_5EZA" association="_jYfxoDLxEeKrc-0EaLb1Ig">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jYfKkTLxEeKrc-0EaLb1Ig" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jYfKkjLxEeKrc-0EaLb1Ig" value="1"/>
+              </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_iwWzkDLxEeKrc-0EaLb1Ig" name="iTelephone_speaker_1" memberEnd="_iwWzlDLxEeKrc-0EaLb1Ig _iwWzkTLxEeKrc-0EaLb1Ig">
+              <ownedEnd xmi:id="_iwWzkTLxEeKrc-0EaLb1Ig" name="speaker" type="_3DPlsCwVEeKfPsvLyN-NZg" aggregation="composite" association="_iwWzkDLxEeKrc-0EaLb1Ig">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iwWzkjLxEeKrc-0EaLb1Ig" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iwWzkzLxEeKrc-0EaLb1Ig" value="1"/>
+              </ownedEnd>
+              <ownedEnd xmi:id="_iwWzlDLxEeKrc-0EaLb1Ig" name="iTelephone" type="_w09ukCziEeKpcNdGO_5EZA" association="_iwWzkDLxEeKrc-0EaLb1Ig">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iwWzlTLxEeKrc-0EaLb1Ig" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iwWzljLxEeKrc-0EaLb1Ig" value="1"/>
+              </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_AWqxIDLyEeKrc-0EaLb1Ig" name="ring_iTelephone_1" memberEnd="_AWqxITLyEeKrc-0EaLb1Ig _AWqKEDLyEeKrc-0EaLb1Ig">
+              <ownedEnd xmi:id="_AWqxITLyEeKrc-0EaLb1Ig" name="ring" type="_3DPlrSwVEeKfPsvLyN-NZg" aggregation="composite" association="_AWqxIDLyEeKrc-0EaLb1Ig">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AWqxIjLyEeKrc-0EaLb1Ig" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AWqxIzLyEeKrc-0EaLb1Ig" value="1"/>
+              </ownedEnd>
+              <ownedEnd xmi:id="_AWqKEDLyEeKrc-0EaLb1Ig" name="iTelephone" type="_w09ukCziEeKpcNdGO_5EZA" association="_AWqxIDLyEeKrc-0EaLb1Ig">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AWqKETLyEeKrc-0EaLb1Ig" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AWqKEjLyEeKrc-0EaLb1Ig" value="1"/>
+              </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_ImmnADLyEeKrc-0EaLb1Ig" name="Dependency1" supplier="_3DPlpSwVEeKfPsvLyN-NZg" client="_3DPlsCwVEeKfPsvLyN-NZg"/>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_JJAwgDLyEeKrc-0EaLb1Ig" name="Dependency2" supplier="_3DPlpSwVEeKfPsvLyN-NZg" client="_3DPltSwVEeKfPsvLyN-NZg"/>
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_hIQ7UCwVEeKfPsvLyN-NZg" name="BusinessServices">
@@ -2692,7 +2744,7 @@
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_txSiMCziEeKpcNdGO_5EZA" name="Interfaces">
             <packageImport xmi:id="_b1GXgCzkEeKpcNdGO_5EZA" importedPackage="_qScQACzSEeKchaPxbKttGQ"/>
-            <packagedElement xmi:type="uml:Interface" xmi:id="_w09ukCziEeKpcNdGO_5EZA" name="ITelephone">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_w09ukCziEeKpcNdGO_5EZA" name="ITelephone" clientDependency="_QNqfADLyEeKrc-0EaLb1Ig">
               <ownedOperation xmi:id="_0UAoUCziEeKpcNdGO_5EZA" name="sendBusySignalToUser">
                 <ownedParameter xmi:id="_HVyNIC0EEeKpcNdGO_5EZA" type="_YvRQNiwVEeKfPsvLyN-NZg" direction="return"/>
               </ownedOperation>
@@ -2748,6 +2800,27 @@
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Dependency" xmi:id="_-bYCAC_kEeKtXeILLXmqWA" name="Dependency1" supplier="_3DPlkSwVEeKfPsvLyN-NZg" client="_aOfFYCzsEeKpcNdGO_5EZA"/>
+            <packagedElement xmi:type="uml:Association" xmi:id="_VVJBEDLwEeKrc-0EaLb1Ig" name="iTelephone_iLink_1" memberEnd="_VVJBFDLwEeKrc-0EaLb1Ig _VVJBETLwEeKrc-0EaLb1Ig">
+              <ownedEnd xmi:id="_VVJBETLwEeKrc-0EaLb1Ig" name="iLink" type="_aOfFYCzsEeKpcNdGO_5EZA" association="_VVJBEDLwEeKrc-0EaLb1Ig">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VVJBEjLwEeKrc-0EaLb1Ig" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VVJBEzLwEeKrc-0EaLb1Ig" value="1"/>
+              </ownedEnd>
+              <ownedEnd xmi:id="_VVJBFDLwEeKrc-0EaLb1Ig" name="iTelephone" type="_w09ukCziEeKpcNdGO_5EZA" association="_VVJBEDLwEeKrc-0EaLb1Ig">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VVJBFTLwEeKrc-0EaLb1Ig" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VVJBFjLwEeKrc-0EaLb1Ig" value="1"/>
+              </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_QNqfADLyEeKrc-0EaLb1Ig" name="Dependency2" supplier="_3DPlpSwVEeKfPsvLyN-NZg" client="_w09ukCziEeKpcNdGO_5EZA"/>
+            <packagedElement xmi:type="uml:Association" xmi:id="_aP6AADLyEeKrc-0EaLb1Ig" name="iTelephone_microphone_1" memberEnd="_aP6ABDLyEeKrc-0EaLb1Ig _aP6AATLyEeKrc-0EaLb1Ig">
+              <ownedEnd xmi:id="_aP6AATLyEeKrc-0EaLb1Ig" name="microphone" type="_3DPltSwVEeKfPsvLyN-NZg" aggregation="composite" association="_aP6AADLyEeKrc-0EaLb1Ig">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aP6AAjLyEeKrc-0EaLb1Ig" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aP6AAzLyEeKrc-0EaLb1Ig" value="1"/>
+              </ownedEnd>
+              <ownedEnd xmi:id="_aP6ABDLyEeKrc-0EaLb1Ig" name="iTelephone" type="_w09ukCziEeKpcNdGO_5EZA" association="_aP6AADLyEeKrc-0EaLb1Ig">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aP6ABTLyEeKrc-0EaLb1Ig" value="1"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aP6ABjLyEeKrc-0EaLb1Ig" value="1"/>
+              </ownedEnd>
+            </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_gT6XECziEeKpcNdGO_5EZA" name="Telephone">
             <packageImport xmi:id="_abhVcCzkEeKpcNdGO_5EZA" importedPackage="_txSiMCziEeKpcNdGO_5EZA"/>
@@ -2830,7 +2903,7 @@
                     </effect>
                     <trigger xmi:id="_e3xmcC_mEeKtXeILLXmqWA" name="t5" event="_eQ83AC_mEeKtXeILLXmqWA"/>
                   </transition>
-                  <transition xmi:id="_q_eYEC_mEeKtXeILLXmqWA" name="Transition5" source="_QvePAC_mEeKtXeILLXmqWA" target="_XkJjoC_tEeKtXeILLXmqWA">
+                  <transition xmi:id="_q_eYEC_mEeKtXeILLXmqWA" name="Transition5" source="_QvePAC_mEeKtXeILLXmqWA" target="_dfyboC_tEeKtXeILLXmqWA">
                     <effect xmi:type="uml:OpaqueBehavior" xmi:id="_4T2_QC_mEeKtXeILLXmqWA" name="">
                       <language>Natural language</language>
                       <body>^st.setCurrentComminicationState(START_STATE); ^r.stopRinging(); ^st.clear(); ^sc.clear();</body>
@@ -2844,7 +2917,7 @@
                     </effect>
                     <trigger xmi:id="_zQpuoC_nEeKtXeILLXmqWA" name="t8" event="_q692EC_nEeKtXeILLXmqWA"/>
                   </transition>
-                  <transition xmi:id="_RqrBEC_oEeKtXeILLXmqWA" name="Transition7" source="_7rlJAC_mEeKtXeILLXmqWA" target="_XkJjoC_tEeKtXeILLXmqWA">
+                  <transition xmi:id="_RqrBEC_oEeKtXeILLXmqWA" name="Transition7" source="_7rlJAC_mEeKtXeILLXmqWA" target="_dfyboC_tEeKtXeILLXmqWA">
                     <effect xmi:type="uml:OpaqueBehavior" xmi:id="_db2JEC_oEeKtXeILLXmqWA">
                       <language>Natural language</language>
                       <body>^st.setCurrentCommunicationState(THE_END); ln.sendBusySignalToTE();</body>
@@ -2858,7 +2931,7 @@
                     </effect>
                     <trigger xmi:id="_jcrDEC_oEeKtXeILLXmqWA" name="t10" event="_jU3K4C_oEeKtXeILLXmqWA"/>
                   </transition>
-                  <transition xmi:id="_oTWeIC_oEeKtXeILLXmqWA" name="Transition9" source="_hZECAC_nEeKtXeILLXmqWA" target="_XkJjoC_tEeKtXeILLXmqWA">
+                  <transition xmi:id="_oTWeIC_oEeKtXeILLXmqWA" name="Transition9" source="_hZECAC_nEeKtXeILLXmqWA" target="_dfyboC_tEeKtXeILLXmqWA">
                     <effect xmi:type="uml:OpaqueBehavior" xmi:id="_ARZLoC_pEeKtXeILLXmqWA">
                       <language>Natural language</language>
                       <body>^sc.clear(); ^st.clear(); ^st.setCurrentCommunicationState(START_STATE);</body>
@@ -2872,7 +2945,7 @@
                     </effect>
                     <trigger xmi:id="_gbEoYC_qEeKtXeILLXmqWA" name="t12" event="_uIT0cC_qEeKtXeILLXmqWA"/>
                   </transition>
-                  <transition xmi:id="_hbaZIC_sEeKtXeILLXmqWA" name="Transition11" source="_QE8HcC_qEeKtXeILLXmqWA" target="_XkJjoC_tEeKtXeILLXmqWA">
+                  <transition xmi:id="_hbaZIC_sEeKtXeILLXmqWA" name="Transition11" source="_QE8HcC_qEeKtXeILLXmqWA" target="_dfyboC_tEeKtXeILLXmqWA">
                     <effect xmi:type="uml:OpaqueBehavior" xmi:id="_0C-KIC_sEeKtXeILLXmqWA">
                       <language>Natural language</language>
                       <body>^st.setCurrentCommunicationState(START_STATE); ^ln.setEndSignalToTE(); ^sc.clear(); ^st.clear();</body>
@@ -2880,7 +2953,7 @@
                     <trigger xmi:id="_j5UmAC_sEeKtXeILLXmqWA" name="t13" event="_XKzo0C_oEeKtXeILLXmqWA"/>
                   </transition>
                   <transition xmi:id="_UdQrMC_tEeKtXeILLXmqWA" name="Transition12" source="_no5_gC_TEeKtXeILLXmqWA" target="_Pq_2EC_tEeKtXeILLXmqWA"/>
-                  <transition xmi:id="_asqzwC_tEeKtXeILLXmqWA" name="Transition13" source="_XkJjoC_tEeKtXeILLXmqWA" target="_Pq_2EC_tEeKtXeILLXmqWA"/>
+                  <transition xmi:id="_asqzwC_tEeKtXeILLXmqWA" name="Transition13" source="_dfyboC_tEeKtXeILLXmqWA" target="_Pq_2EC_tEeKtXeILLXmqWA"/>
                 </region>
               </ownedBehavior>
               <ownedOperation xmi:id="_7x6E0C0EEeKpcNdGO_5EZA" name="sendBusySignalToUser">

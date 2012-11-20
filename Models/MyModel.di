@@ -149,6 +149,15 @@
     <availablePage>
       <emfPageIdentifier href="MyModel.notation#_i56boC_lEeKtXeILLXmqWA"/>
     </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MyModel.notation#_3e_swCwVEeKfPsvLyN-NZg"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MyModel.notation#_3fIPoCwVEeKfPsvLyN-NZg"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MyModel.notation#_3fMhECwVEeKfPsvLyN-NZg"/>
+    </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
@@ -158,6 +167,39 @@
         </children>
         <children>
           <emfPageIdentifier href="MyModel.notation#_1GWo0C1yEeKE8bWQtL_X9A"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_QjL98C_PEeKtXeILLXmqWA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_d83B4C1rEeKE8bWQtL_X9A"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_5OtlUC1yEeKE8bWQtL_X9A"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_soFUYBM5EeKZDdUX4BkTRQ"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_knAhgC1yEeKE8bWQtL_X9A"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_Kyt0kCzkEeKpcNdGO_5EZA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_jknygCzlEeKpcNdGO_5EZA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_3e_swCwVEeKfPsvLyN-NZg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_3fD-MCwVEeKfPsvLyN-NZg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_3fIPoCwVEeKfPsvLyN-NZg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MyModel.notation#_3fMhECwVEeKfPsvLyN-NZg"/>
         </children>
       </children>
     </windows>
