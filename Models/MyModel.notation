@@ -19268,7 +19268,7 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Zv6PZy_TEeKtXeILLXmqWA" key="QualifiedNameDepth" value="1000"/>
       </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_Zv6PaC_TEeKtXeILLXmqWA" type="2001">
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zv6PaS_TEeKtXeILLXmqWA" width="1334" height="18"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zv6PaS_TEeKtXeILLXmqWA" width="1334" height="17"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_Zv6Pai_TEeKtXeILLXmqWA" type="2002">
         <children xmi:type="notation:Shape" xmi:id="_Zv6Pay_TEeKtXeILLXmqWA" type="3000" fontName="Ubuntu" fontHeight="11" lineColor="0">
@@ -19296,7 +19296,7 @@
                 <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i-llcy_TEeKtXeILLXmqWA" key="QualifiedNameDepth" value="1000"/>
               </eAnnotations>
               <children xmi:type="notation:DecorationNode" xmi:id="_i-lldC_TEeKtXeILLXmqWA" type="6001">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kiFYgC_TEeKtXeILLXmqWA" width="188" height="18"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kiFYgC_TEeKtXeILLXmqWA" width="188" height="17"/>
               </children>
               <children xmi:type="notation:BasicCompartment" xmi:id="_i-lldS_TEeKtXeILLXmqWA" visible="false" type="6003">
                 <styles xmi:type="notation:TitleStyle" xmi:id="_i-lldi_TEeKtXeILLXmqWA"/>
@@ -19311,10 +19311,10 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i-llfi_TEeKtXeILLXmqWA"/>
               </children>
               <children xmi:type="notation:DecorationNode" xmi:id="_i-llfy_TEeKtXeILLXmqWA" visible="false" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i-llgC_TEeKtXeILLXmqWA" y="18" width="188" height="61"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i-llgC_TEeKtXeILLXmqWA" y="17" width="188" height="61"/>
               </children>
               <element xmi:type="uml:State" href="MyModel.uml#_i9yUMC_TEeKtXeILLXmqWA"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i-k-YS_TEeKtXeILLXmqWA" x="375" y="174" width="188" height="79"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i-k-YS_TEeKtXeILLXmqWA" x="375" y="174" width="188" height="78"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_lCnSsC_TEeKtXeILLXmqWA" type="6000" fontName="Ubuntu" fontHeight="11" lineColor="0">
               <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lCn5wS_TEeKtXeILLXmqWA" source="ShadowFigure">
@@ -19327,7 +19327,7 @@
                 <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lCn5xi_TEeKtXeILLXmqWA" key="QualifiedNameDepth" value="1000"/>
               </eAnnotations>
               <children xmi:type="notation:DecorationNode" xmi:id="_lCn5xy_TEeKtXeILLXmqWA" type="6001">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nBwf8C_TEeKtXeILLXmqWA" width="361" height="18"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nBwf8C_TEeKtXeILLXmqWA" width="361" height="17"/>
               </children>
               <children xmi:type="notation:BasicCompartment" xmi:id="_lCog0C_TEeKtXeILLXmqWA" type="6003">
                 <children xmi:type="notation:Shape" xmi:id="_L8GKIC_nEeKtXeILLXmqWA" type="692" fontName="Ubuntu" fontHeight="11" lineColor="0">
@@ -19350,10 +19350,10 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lCog2S_TEeKtXeILLXmqWA"/>
               </children>
               <children xmi:type="notation:DecorationNode" xmi:id="_lCog2i_TEeKtXeILLXmqWA" visible="false" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lCog2y_TEeKtXeILLXmqWA" y="18" width="361" height="125"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lCog2y_TEeKtXeILLXmqWA" y="17" width="361" height="125"/>
               </children>
               <element xmi:type="uml:State" href="MyModel.uml#_lB458C_TEeKtXeILLXmqWA"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lCn5wC_TEeKtXeILLXmqWA" x="20" y="264" width="361" height="143"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lCn5wC_TEeKtXeILLXmqWA" x="20" y="264" width="361" height="142"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_npywUC_TEeKtXeILLXmqWA" type="8000" fontName="Ubuntu" fontHeight="11" lineColor="0">
               <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_npzXYC_TEeKtXeILLXmqWA" source="ShadowFigure">
@@ -19385,7 +19385,7 @@
                 <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QxiEhS_mEeKtXeILLXmqWA" key="QualifiedNameDepth" value="1000"/>
               </eAnnotations>
               <children xmi:type="notation:DecorationNode" xmi:id="_QxiEhi_mEeKtXeILLXmqWA" type="6001">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R6AIcC_mEeKtXeILLXmqWA" width="153" height="18"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R6AIcC_mEeKtXeILLXmqWA" width="153" height="17"/>
               </children>
               <children xmi:type="notation:BasicCompartment" xmi:id="_QxiEhy_mEeKtXeILLXmqWA" visible="false" type="6003">
                 <styles xmi:type="notation:TitleStyle" xmi:id="_QxiEiC_mEeKtXeILLXmqWA"/>
@@ -19400,10 +19400,10 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QxiEkC_mEeKtXeILLXmqWA"/>
               </children>
               <children xmi:type="notation:DecorationNode" xmi:id="_QxiEkS_mEeKtXeILLXmqWA" visible="false" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QxiEki_mEeKtXeILLXmqWA" y="18" width="153" height="81"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QxiEki_mEeKtXeILLXmqWA" y="17" width="153" height="81"/>
               </children>
               <element xmi:type="uml:State" href="MyModel.uml#_QvePAC_mEeKtXeILLXmqWA"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QxhdcS_mEeKtXeILLXmqWA" x="988" y="88" width="153" height="99"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QxhdcS_mEeKtXeILLXmqWA" x="988" y="88" width="153" height="98"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_7ta8EC_mEeKtXeILLXmqWA" type="6000" fontName="Ubuntu" fontHeight="11" lineColor="0">
               <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7ta8Ei_mEeKtXeILLXmqWA" source="ShadowFigure">
@@ -19416,7 +19416,7 @@
                 <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7tbjIy_mEeKtXeILLXmqWA" key="QualifiedNameDepth" value="1000"/>
               </eAnnotations>
               <children xmi:type="notation:DecorationNode" xmi:id="_7tbjJC_mEeKtXeILLXmqWA" type="6001">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_85xacC_mEeKtXeILLXmqWA" width="301" height="18"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_85xacC_mEeKtXeILLXmqWA" width="301" height="17"/>
               </children>
               <children xmi:type="notation:BasicCompartment" xmi:id="_7tbjJS_mEeKtXeILLXmqWA" type="6003">
                 <children xmi:type="notation:Shape" xmi:id="_V8wE0C_pEeKtXeILLXmqWA" type="691" fontName="Ubuntu" fontHeight="11" lineColor="0">
@@ -19435,10 +19435,10 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7tbjLi_mEeKtXeILLXmqWA"/>
               </children>
               <children xmi:type="notation:DecorationNode" xmi:id="_7tbjLy_mEeKtXeILLXmqWA" visible="false" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7tbjMC_mEeKtXeILLXmqWA" y="18" width="301" height="115"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7tbjMC_mEeKtXeILLXmqWA" y="17" width="301" height="115"/>
               </children>
               <element xmi:type="uml:State" href="MyModel.uml#_7rlJAC_mEeKtXeILLXmqWA"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7ta8ES_mEeKtXeILLXmqWA" x="380" y="514" width="301" height="133"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7ta8ES_mEeKtXeILLXmqWA" x="380" y="514" width="301" height="132"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_hbC_AC_nEeKtXeILLXmqWA" type="6000" fontName="Ubuntu" fontHeight="11" lineColor="0">
               <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hbDmEC_nEeKtXeILLXmqWA" source="ShadowFigure">
@@ -19451,7 +19451,7 @@
                 <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hbDmFS_nEeKtXeILLXmqWA" key="QualifiedNameDepth" value="1000"/>
               </eAnnotations>
               <children xmi:type="notation:DecorationNode" xmi:id="_hbDmFi_nEeKtXeILLXmqWA" type="6001">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jWG9gC_nEeKtXeILLXmqWA" width="125" height="18"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jWG9gC_nEeKtXeILLXmqWA" width="125" height="17"/>
               </children>
               <children xmi:type="notation:BasicCompartment" xmi:id="_hbDmFy_nEeKtXeILLXmqWA" visible="false" type="6003">
                 <styles xmi:type="notation:TitleStyle" xmi:id="_hbDmGC_nEeKtXeILLXmqWA"/>
@@ -19466,10 +19466,10 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hbENJS_nEeKtXeILLXmqWA"/>
               </children>
               <children xmi:type="notation:DecorationNode" xmi:id="_hbENJi_nEeKtXeILLXmqWA" visible="false" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hbENJy_nEeKtXeILLXmqWA" y="18" width="125" height="69"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hbENJy_nEeKtXeILLXmqWA" y="17" width="125" height="69"/>
               </children>
               <element xmi:type="uml:State" href="MyModel.uml#_hZECAC_nEeKtXeILLXmqWA"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hbC_AS_nEeKtXeILLXmqWA" x="475" y="775" width="125" height="87"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hbC_AS_nEeKtXeILLXmqWA" x="475" y="775" width="125" height="86"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_QG2zAC_qEeKtXeILLXmqWA" type="6000" fontName="Ubuntu" fontHeight="11" lineColor="0">
               <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QG2zAi_qEeKtXeILLXmqWA" source="ShadowFigure">
@@ -19482,7 +19482,7 @@
                 <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QG3aES_qEeKtXeILLXmqWA" key="QualifiedNameDepth" value="1000"/>
               </eAnnotations>
               <children xmi:type="notation:DecorationNode" xmi:id="_QG3aEi_qEeKtXeILLXmqWA" type="6001">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0eG8C_qEeKtXeILLXmqWA" width="202" height="18"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0eG8C_qEeKtXeILLXmqWA" width="202" height="17"/>
               </children>
               <children xmi:type="notation:BasicCompartment" xmi:id="_QG3aEy_qEeKtXeILLXmqWA" type="6003">
                 <children xmi:type="notation:Shape" xmi:id="_Ch0rQC_rEeKtXeILLXmqWA" type="690" fontName="Ubuntu" fontHeight="11" lineColor="0">
@@ -19501,10 +19501,10 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QG3aHC_qEeKtXeILLXmqWA"/>
               </children>
               <children xmi:type="notation:DecorationNode" xmi:id="_QG3aHS_qEeKtXeILLXmqWA" visible="false" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QG3aHi_qEeKtXeILLXmqWA" y="18" width="202" height="57"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QG3aHi_qEeKtXeILLXmqWA" y="17" width="202" height="57"/>
               </children>
               <element xmi:type="uml:State" href="MyModel.uml#_QE8HcC_qEeKtXeILLXmqWA"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QG2zAS_qEeKtXeILLXmqWA" x="60" y="585" width="202" height="75"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QG2zAS_qEeKtXeILLXmqWA" x="60" y="585" width="202" height="74"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_PtAoQC_tEeKtXeILLXmqWA" type="6000" fontName="Ubuntu" fontHeight="11" lineColor="0">
               <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PtAoQi_tEeKtXeILLXmqWA" source="ShadowFigure">
@@ -19517,7 +19517,7 @@
                 <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PtAoRy_tEeKtXeILLXmqWA" key="QualifiedNameDepth" value="1000"/>
               </eAnnotations>
               <children xmi:type="notation:DecorationNode" xmi:id="_PtAoSC_tEeKtXeILLXmqWA" type="6001">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QJH8gC_tEeKtXeILLXmqWA" width="198" height="18"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QJH8gC_tEeKtXeILLXmqWA" width="198" height="17"/>
               </children>
               <children xmi:type="notation:BasicCompartment" xmi:id="_PtBPUC_tEeKtXeILLXmqWA" visible="false" type="6003">
                 <styles xmi:type="notation:TitleStyle" xmi:id="_PtBPUS_tEeKtXeILLXmqWA"/>
@@ -19532,10 +19532,10 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PtBPWS_tEeKtXeILLXmqWA"/>
               </children>
               <children xmi:type="notation:DecorationNode" xmi:id="_PtBPWi_tEeKtXeILLXmqWA" visible="false" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PtBPWy_tEeKtXeILLXmqWA" y="18" width="198" height="63"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PtBPWy_tEeKtXeILLXmqWA" y="17" width="198" height="63"/>
               </children>
               <element xmi:type="uml:State" href="MyModel.uml#_Pq_2EC_tEeKtXeILLXmqWA"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PtAoQS_tEeKtXeILLXmqWA" x="440" y="50" width="198" height="81"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PtAoQS_tEeKtXeILLXmqWA" x="440" y="50" width="198" height="80"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_dh1DAC_tEeKtXeILLXmqWA" type="12000" fontName="Ubuntu" fontHeight="11" lineColor="0">
               <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dh1DAi_tEeKtXeILLXmqWA" source="ShadowFigure">
@@ -19561,10 +19561,10 @@
           <element xmi:type="uml:Region" href="MyModel.uml#_Zv198C_TEeKtXeILLXmqWA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zv6Pdi_TEeKtXeILLXmqWA" x="215" y="6" width="1334" height="1092"/>
         </children>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zv6Pdy_TEeKtXeILLXmqWA" y="18" width="1334" height="1092"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zv6Pdy_TEeKtXeILLXmqWA" y="17" width="1334" height="1092"/>
       </children>
       <element xmi:type="uml:StateMachine" href="MyModel.uml#_Y7dToC_TEeKtXeILLXmqWA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zv6PeC_TEeKtXeILLXmqWA" x="-620" y="35" width="1334" height="1110"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zv6PeC_TEeKtXeILLXmqWA" x="-620" y="35" width="1334" height="1109"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_Zv6PeS_TEeKtXeILLXmqWA"/>
     <element xmi:type="uml:StateMachine" href="MyModel.uml#_Y7dToC_TEeKtXeILLXmqWA"/>
